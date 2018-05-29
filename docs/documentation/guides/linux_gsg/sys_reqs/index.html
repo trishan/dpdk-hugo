@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DPDK</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.31.1" />
+<title>2. System Requirements :: DPDK</title>
+<link rel="shortcut icon" href="/dpdk-hugo/images/favicon.png" type="image/x-icon" />
+<link href="/dpdk-hugo/css/font-awesome.min.css" rel="stylesheet">
+<link href="/dpdk-hugo/css/nucleus.css" rel="stylesheet">
+<link href="/dpdk-hugo/theme-flex/style.css" rel="stylesheet">
+
+	<link href="/dpdk-hugo/theme-flex/variant-gray.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/dpdk-hugo/css/bootstrap.min.css">
+<script src="/dpdk-hugo/js/jquery-2.x.min.js"></script>
+<script type="text/javascript">
+      var baseurl = "https:\/\/jeskaduman.github.io\/dpdk-hugo";
+</script>
+<meta name="description" content="">
+
+
+
+    
+  </head>
+  <body data-url="/dpdk-hugo/documentation/guides/linux_gsg/sys_reqs/">
+    
+      <header>
+  <div class="logo">
+    
+	
+  
+    <p><a href="/" rel="DPDK"><img src="/img/dpdk-dark-logo-default.png" alt="DPDK logo" /></a></p>
+
+  
+
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="/dpdk-hugo/developmentroadmap/"  rel="noopener">
+                  <label>Development Roadmap</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="/dpdk-hugo/download"  rel="noopener">
+                  <label>Download</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="https://www.dpdk.org"  rel="noopener">
+                  <i class='fa fa-home'></i> <label>DPDK Home</label>
+                </a>
+            </li>
+    </nav>
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/dpdk-hugo/performancelab/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/performancelab/">Performance Lab</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/">Documentation</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/">Guides</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/linux_gsg/">Getting Started Guide for Linux</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/intro/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/linux_gsg/intro/">1. Introduction</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+        </ul>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/sys_reqs/" class="dd-item parent active
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/linux_gsg/sys_reqs/">2. System Requirements</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/build_dpdk/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/linux_gsg/build_dpdk/">3. Compiling the DPDK Target from Source</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/freebsd_gsg/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/freebsd_gsg/">Getting Started Guide for FreeBSD</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/sample_app_ug/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/sample_app_ug/">Sample Applications User Guides</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/prog_guide/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/prog_guide/">Programmer&#39;s Guide</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/howto/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/howto/">HowTo Guides</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/tools/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/tools/">DPDK Tools User Guides</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/testpmd_app_ug/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/testpmd_app_ug/">Testpmd Application User Guide</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/nics/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/nics/">Network Interface Controller Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/bbdevs/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/bbdevs/">Baseband Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/cryptodevs/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/cryptodevs/">Crypto Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/compressdevs/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/compressdevs/">Compression Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/eventdevs/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/eventdevs/">Event Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/rawdevs/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/rawdevs/">Rawdev Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/mempool/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/mempool/">Mempool Device Driver</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/platform/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/platform/">Platform Specific Guides</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/contributing/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/contributing/">Contributor&#39;s Guidelines</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/rel_notes/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/rel_notes/">Release Notes</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+      <li data-nav-id="/doc/guides/faq/" class="dd-item">
+        <div>
+          <a href="/dpdk-hugo/doc/guides/faq/">
+            FAQ
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/quickstart/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/quickstart/">Quick Start Guide</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/dpdk-hugo/performancereports/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/performancereports/">Performance Reports</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/supportedhardware/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/dpdk-hugo/supportedhardware/">Supported Hardware</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/dpdk-hugo/supportedhardware/paravirtualization/" class="dd-item">
+        <div>
+          <a href="/dpdk-hugo/supportedhardware/paravirtualization/">
+            Paravirtualization
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/supportedhardware/other/" class="dd-item">
+        <div>
+          <a href="/dpdk-hugo/supportedhardware/other/">
+            Other Hardware
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dpdk-hugo/supportedhardware/attic/" class="dd-item">
+        <div>
+          <a href="/dpdk-hugo/supportedhardware/attic/">
+            Attic
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/dpdk-hugo/training/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/training/">Training</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+
+
+
+
+    </ul>
+    <section><hr />
+
+<center>
+
+<a class="github-button" href="https://github.com/DPDK/dpdk.git" data-icon="octicon-cloud-download" aria-label="Download DPDK on GitHub">Download</a>
+
+
+<a class="github-button" href="https://github.com/DPDK/dpdk" data-icon="octicon-star" data-show-count="false" aria-label="Star DPDK on GitHub">Star</a>
+
+
+<a class="github-button" href="https://github.com/DPDK/dpdk/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork DPDK on GitHub">Fork</a>
+
+</center>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<hr />
+<div style="margin-top: 5%; padding: 3%; font-size: 12px;">
+  <div>
+  © DPDK Project. LF Projects, LLC uses various trademarks. For our trademark, privacy and antitrust policies, code of conduct and terms of use, please click the applicable link below or see www.lfprojects.org.
+  </div>
+  <div style="margin-top: 5%">
+  <a href="https://lfprojects.org/policies/terms-of-use/">Terms of Use</a> | <a href="https://lfprojects.org/policies/privacy-policy/">Privacy Policy</a> | <a href="https://lfprojects.org/policies/code-of-conduct/">Code of Conduct</a> | <a href="https://lfprojects.org/policies/trademark-policy/">Trademark Policy</a> | <a href="https://lfprojects.org/policies/antitrust-policy/">Antitrust Policy</a>
+  </div>
+</div>
+
+    </section>
+  </aside>
+  <section class="page">
+    
+    <div class="nav-select">
+      <center>Navigation : 
+        <select onchange="javascript:location.href = this.value;">
+          
+    <option value="/dpdk-hugo/performancelab/" >
+   Performance Lab</option>
+    <option value="/dpdk-hugo/documentation/" >
+   Documentation</option> 
+    <option value="/dpdk-hugo/documentation/guides/" >
+  - 
+   Guides</option> 
+    <option value="/dpdk-hugo/documentation/guides/linux_gsg/" >
+  -- 
+   Getting Started Guide for Linux</option> 
+    <option value="/dpdk-hugo/documentation/guides/linux_gsg/intro/" >
+  --- 
+   1. Introduction</option>
+    <option value="/dpdk-hugo/documentation/guides/linux_gsg/sys_reqs/"  selected>
+  --- 
+   2. System Requirements</option> 
+  
+    <option value="/dpdk-hugo/documentation/guides/linux_gsg/build_dpdk/" >
+  --- 
+   3. Compiling the DPDK Target from Source</option>
+  
+    <option value="/dpdk-hugo/documentation/guides/freebsd_gsg/" >
+  -- 
+   Getting Started Guide for FreeBSD</option>
+    <option value="/dpdk-hugo/documentation/guides/sample_app_ug/" >
+  -- 
+   Sample Applications User Guides</option>
+    <option value="/dpdk-hugo/documentation/guides/prog_guide/" >
+  -- 
+   Programmer&#39;s Guide</option>
+    <option value="/dpdk-hugo/documentation/guides/howto/" >
+  -- 
+   HowTo Guides</option>
+    <option value="/dpdk-hugo/documentation/guides/tools/" >
+  -- 
+   DPDK Tools User Guides</option>
+    <option value="/dpdk-hugo/documentation/guides/testpmd_app_ug/" >
+  -- 
+   Testpmd Application User Guide</option>
+    <option value="/dpdk-hugo/documentation/guides/nics/" >
+  -- 
+   Network Interface Controller Drivers</option>
+    <option value="/dpdk-hugo/documentation/guides/bbdevs/" >
+  -- 
+   Baseband Device Drivers</option>
+    <option value="/dpdk-hugo/documentation/guides/cryptodevs/" >
+  -- 
+   Crypto Device Drivers</option>
+    <option value="/dpdk-hugo/documentation/guides/compressdevs/" >
+  -- 
+   Compression Device Drivers</option>
+    <option value="/dpdk-hugo/documentation/guides/eventdevs/" >
+  -- 
+   Event Device Drivers</option>
+    <option value="/dpdk-hugo/documentation/guides/rawdevs/" >
+  -- 
+   Rawdev Drivers</option>
+    <option value="/dpdk-hugo/documentation/guides/mempool/" >
+  -- 
+   Mempool Device Driver</option>
+    <option value="/dpdk-hugo/documentation/guides/platform/" >
+  -- 
+   Platform Specific Guides</option>
+    <option value="/dpdk-hugo/documentation/guides/contributing/" >
+  -- 
+   Contributor&#39;s Guidelines</option>
+    <option value="/dpdk-hugo/documentation/guides/rel_notes/" >
+  -- 
+   Release Notes</option>
+      <option value="/dpdk-hugo/doc/guides/faq/" >-- FAQ</option>
+  
+    <option value="/dpdk-hugo/documentation/quickstart/" >
+  - 
+   Quick Start Guide</option>
+  
+    <option value="/dpdk-hugo/performancereports/" >
+   Performance Reports</option>
+    <option value="/dpdk-hugo/supportedhardware/" >
+   Supported Hardware</option>
+    <option value="/dpdk-hugo/training/" >
+   Training</option>
+    <option value="/dpdk-hugo/developmentroadmap/" >
+   Development Roadmap</option>
+    <option value="/dpdk-hugo/download/" >
+   Download</option>
+
+
+
+        </select>
+      </center>
+    </div>
+      <div>
+        <div class="searchbox">
+          <input data-search-input id="search-by" type="text" placeholder="Search...">
+        </div>
+        <script type="text/javascript" src="/dpdk-hugo/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/dpdk-hugo/js/auto-complete.js"></script>
+        <link href="/dpdk-hugo/css/auto-complete.css" rel="stylesheet">
+        <script type="text/javascript">
+          
+              var baseurl = "https:\/\/jeskaduman.github.io\/dpdk-hugo";
+          
+        </script>
+        <script type="text/javascript" src="/dpdk-hugo/js/search.js"></script>
+      </div>
+    
+
+    <h1>2. System Requirements</h1>
+    
+    
+    
+
+
+
+<h3 id="2-system-requirements">2. System Requirements</h3>
+
+<p>This chapter describes the packages required to compile the DPDK.</p>
+
+<div class="notices note" ><p>If the DPDK is being used on an Intel® Communications Chipset 89xx Series platform, please consult the <em>Intel® Communications Chipset 89xx Series Software for Linux Getting Started Guide.</em></p>
+</div>
+
+
+<h4 id="2-1-bios-setting-prerequisite-on-x86">2.1. BIOS Setting Prerequisite on x86</h4>
+
+<p>For the majority of platforms, no special BIOS settings are needed to use basic DPDK functionality. However, for additional HPET timer and power management functionality, and high performance of small packets, BIOS setting changes may be needed. Consult the section on <a href="http://dpdk.org/doc/guides/linux_gsg/enable_func.html#enabling-additional-functionality">Enabling Additional Functionality</a> for more information on the required changes.</p>
+
+<div class="notices note" ><p>If UEFI secure boot is enabled, the Linux kernel may disallow the use of UIO on the system. Therefore, devices for use by DPDK should be bound to the <code>vfio-pci</code> kernel module rather than <code>igb_uio</code> or <code>uio_pci_generic</code>. For more details see <a href="http://dpdk.org/doc/guides/linux_gsg/linux_drivers.html#linux-gsg-binding-kernel">Binding and Unbinding Network Ports to/from the Kernel Modules</a>.</p>
+</div>
+
+
+<h4 id="2-2-compilation-of-the-dpdk">2.2 Compilation of the DPDK</h4>
+
+<h5 id="required-tools-and-libraries">Required tools and libraries:</h5>
+
+<div class="notices note" ><p>The setup commands and installed packages needed on various systems may be different. For details on Linux distributions and the versions tested, please consult the DPDK Release Notes.</p>
+</div>
+
+
+<ul>
+<li>GNU <code>make</code>.</li>
+<li>coreutils: <code>cmp</code>, <code>sed</code>, <code>grep</code>, <code>arch</code>, etc.</li>
+<li>gcc: versions 4.9 or later is recommended for all platforms. On some distributions, some specific compiler flags and linker flags are enabled by default and affect performance (<code>-fstack-protector</code>, for example). Please refer to the documentation of your distribution and to <code>gcc -dumpspecs</code>.</li>
+<li>libc headers, often packaged as <code>gcc-multilib</code> (<code>glibc-devel.i686</code> / <code>libc6-dev-i386</code>; <code>glibc-devel.x86_64</code> / <code>libc6-dev</code> for 64-bit compilation on Intel architecture; <code>glibc-devel.ppc64</code> for 64 bit IBM Power architecture;)</li>
+<li>Linux kernel headers or sources required to build kernel modules. (kernel - devel.x86_64; kernel - devel.ppc64)</li>
+<li>Additional packages required for 32-bit compilation on 64-bit systems are:
+
+<ul>
+<li>glibc.i686, libgcc.i686, libstdc++.i686 and glibc-devel.i686 for Intel i686/x86_64;</li>
+<li>glibc.ppc64, libgcc.ppc64, libstdc++.ppc64 and glibc-devel.ppc64 for IBM ppc_64;</li>
+</ul></li>
+</ul>
+
+<p><div class="notices note" ><p>x86_x32 ABI is currently supported with distribution packages only on Ubuntu higher than 13.10 or recent Debian distribution. The only supported compiler is gcc 4.9+.</p>
+</div>
+
+- libnuma-devel - library for handling NUMA (Non Uniform Memory Access).
+- Python, version 2.7+ or 3.2+, to use various helper scripts included in the DPDK package.</p>
+
+<p><strong>Optional Tools:</strong></p>
+
+<ul>
+<li>Intel® C++ Compiler (icc). For installation, additional libraries may be required. See the icc Installation Guide found in the Documentation directory under the compiler installation.</li>
+<li>IBM® Advance ToolChain for Powerlinux. This is a set of open source development tools and runtime libraries which allows users to take leading edge advantage of IBM’s latest POWER hardware features on Linux. To install it, see the IBM official installation document.</li>
+<li>libpcap headers and libraries (libpcap-devel) to compile and use the libpcap-based poll-mode driver. This driver is disabled by default and can be enabled by setting <code>CONFIG_RTE_LIBRTE_PMD_PCAP=y</code> in the build time config file.</li>
+<li>libarchive headers and library are needed for some unit tests using tar to get their resources.</li>
+</ul>
+
+<h4 id="2-3-running-dpdk-applications">2.3 Running DPDK Applications</h4>
+
+<p>To run an DPDK application, some customization may be required on the target machine.</p>
+
+<h5 id="2-3-1-system-software">2.3.1 System Software</h5>
+
+<p><strong>Required:</strong></p>
+
+<ul>
+<li>Kernel version &gt;= 3.2</li>
+</ul>
+
+<p>The kernel version required is based on the oldest long term stable kernel available at kernel.org when the DPDK version is in development.</p>
+
+<p>The kernel version in use can be checked using the command:</p>
+
+<pre><code>uname -r
+</code></pre>
+
+<ul>
+<li>glibc &gt;= 2.7 (for features related to cpuset)</li>
+</ul>
+
+<p>The version can be checked using the <code>ldd --version</code> command.</p>
+
+<ul>
+<li>Kernel configuration</li>
+</ul>
+
+<p>In the Fedora OS and other common distributions, such as Ubuntu, or Red Hat Enterprise Linux, the vendor supplied kernel configurations can be used to run most DPDK applications.</p>
+
+<p>For other kernel builds, options which should be enabled for DPDK include:</p>
+
+<ul>
+<li>HUGETLBFS</li>
+<li>PROC_PAGE_MONITOR support</li>
+<li>HPET and HPET_MMAP configuration options should also be enabled if HPET support is required. See the section on <a href="http://dpdk.org/doc/guides/linux_gsg/enable_func.html#high-precision-event-timer">High Precision Event Timer (HPET) Functionality</a> for more details.</li>
+</ul>
+
+<h5 id="2-3-2-use-of-hugepages-in-the-linux-environment">2.3.2. Use of Hugepages in the Linux Environment</h5>
+
+<p>Hugepage support is required for the large memory pool allocation used for packet buffers (the HUGETLBFS option must be enabled in the running kernel as indicated the previous section). By using hugepage allocations, performance is increased since fewer pages are needed, and therefore less Translation Lookaside Buffers (TLBs, high speed translation caches), which reduce the time it takes to translate a virtual page address to a physical page address. Without hugepages, high TLB miss rates would occur with the standard 4k page size, slowing performance.</p>
+
+<h6 id="2-3-2-1-reserving-hugepages-for-dpdk-use">2.3.2.1. Reserving Hugepages for DPDK Use</h6>
+
+<p>The allocation of hugepages should be done at boot time or as soon as possible after system boot to prevent memory from being fragmented in physical memory. To reserve hugepages at boot time, a parameter is passed to the Linux kernel on the kernel command line.</p>
+
+<p>For 2 MB pages, just pass the hugepages option to the kernel. For example, to reserve 1024 pages of 2 MB, use:</p>
+
+<pre><code>hugepages=1024
+</code></pre>
+
+<p>For other hugepage sizes, for example 1G pages, the size must be specified explicitly and can also be optionally set as the default hugepage size for the system. For example, to reserve 4G of hugepage memory in the form of four 1G pages, the following options should be passed to the kernel:</p>
+
+<pre><code>default_hugepagesz=1G hugepagesz=1G hugepages=4
+</code></pre>
+
+<div class="notices note" ><p>The hugepage sizes that a CPU supports can be determined from the CPU flags on Intel architecture. If pse exists, 2M hugepages are supported; if pdpe1gb exists, 1G hugepages are supported. On IBM Power architecture, the supported hugepage sizes are 16MB and 16GB.</p>
+</div>
+
+
+<div class="notices note" ><p>For 64-bit applications, it is recommended to use 1 GB hugepages if the platform supports them.</p>
+</div>
+
+
+<p>In the case of a dual-socket NUMA system, the number of hugepages reserved at boot time is generally divided equally between the two sockets (on the assumption that sufficient memory is present on both sockets).</p>
+
+<p>See the Documentation/kernel-parameters.txt file in your Linux source tree for further details of these and other kernel options.</p>
+
+<p>__ Alternative: __</p>
+
+<p>For 2 MB pages, there is also the option of allocating hugepages after the system has booted. This is done by echoing the number of hugepages required to a nr_hugepages file in the /sys/devices/ directory. For a single-node system, the command to use is as follows (assuming that 1024 pages are required):</p>
+
+<pre><code>echo 1024 &gt; /sys/kernel/mm/hugepages/hugepages-2048kB/nr_hugepages
+</code></pre>
+
+<p>On a NUMA machine, pages should be allocated explicitly on separate nodes:</p>
+
+<pre><code>echo 1024 &gt; /sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages
+echo 1024 &gt; /sys/devices/system/node/node1/hugepages/hugepages-2048kB/nr_hugepages
+</code></pre>
+
+<div class="notices note" ><p>For 1G pages, it is not possible to reserve the hugepage memory after the system has booted.</p>
+
+<p>On IBM POWER system, the nr_overcommit_hugepages should be set to the same value as nr_hugepages. For example, if the required page number is 128, the following commands are used:</p>
+
+<pre><code>echo 128 &gt; /sys/kernel/mm/hugepages/hugepages-16384kB/nr_hugepages
+echo 128 &gt; /sys/kernel/mm/hugepages/hugepages-16384kB/nr_overcommit_hugepages
+</code></pre>
+</div>
+
+
+<h6 id="2-3-2-2-using-hugepages-with-the-dpdk">2.3.2.2. Using Hugepages with the DPDK</h6>
+
+<p>Once the hugepage memory is reserved, to make the memory available for DPDK use, perform the following steps:</p>
+
+<pre><code>mkdir /mnt/huge
+mount -t hugetlbfs nodev /mnt/huge
+</code></pre>
+
+<p>The mount point can be made permanent across reboots, by adding the following line to the <code>/etc/fstab</code> file:</p>
+
+<pre><code>nodev /mnt/huge hugetlbfs defaults 0 0
+</code></pre>
+
+<p>For 1GB pages, the page size must be specified as a mount option:</p>
+
+<pre><code>nodev /mnt/huge_1GB hugetlbfs pagesize=1GB 0 0
+</code></pre>
+
+
+
+    
+    
+        <div class="chevrons">
+    <div id="navigation">
+<a class="nav nav-prev" href="/dpdk-hugo/documentation/guides/linux_gsg/intro/" title="1. Introduction"> <i class="fa fa-chevron-left"></i><label>1. Introduction</label></a>
+    <a class="nav nav-next" href="/dpdk-hugo/documentation/guides/linux_gsg/build_dpdk/" title="3. Compiling the DPDK Target from Source" style="margin-right: 0px;"><label>3. Compiling the DPDK Target from Source</label><i class="fa fa-chevron-right"></i></a></div>
+  </div>
+
+  </section>
+</article>
+
+<footer>
+
+<div class="footline">
+    
+
+    
+
+  
+
+    <div class="github-link">
+      <a href="Documentation/Guides/linux_gsg/sys_reqs/_index.md" target="blank"><i class="fa fa-code-fork"></i>
+        Improve this page</a>
+    </div>
+  </div>
+
+
+	<div>
+
+
+  
+    
+  
+
+
+
+	</div>
+</footer>
+
+<script src="/dpdk-hugo/js/clipboard.min.js"></script>
+
+<link href="/dpdk-hugo/css/featherlight.min.css" rel="stylesheet">
+<script src="/dpdk-hugo/js/featherlight.min.js"></script>
+
+
+
+<script src="/dpdk-hugo/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    
+  </body>
+</html>

@@ -1,8 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "https://jeskaduman.github.io/dpdk-hugo"
 languageCode = "en-us"
 
 title = "DPDK"
 theme = "docdock"
+
+publishDir = "docs"
 
 [params]
 themeStyle = "flex"

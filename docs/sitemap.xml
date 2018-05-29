@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/linux_gsg/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/paravirtualization/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/performancelab/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/freebsd_gsg/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/other/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/attic/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/sample_app_ug/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/performancereports/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/prog_guide/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/howto/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/tools/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/testpmd_app_ug/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/training/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/nics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/bbdevs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/cryptodevs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/compressdevs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/eventdevs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/rawdevs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/mempool/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/platform/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/contributing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/rel_notes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/doc/guides/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/_footer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/_header/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/linux_gsg/intro/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/linux_gsg/intro/doc_roadmap/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/linux_gsg/sys_reqs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/linux_gsg/build_dpdk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/amazon/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/atomicrules/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/broadcom/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cavium/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/chelsio/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cisco/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/developmentroadmap/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/download/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/guides/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/intel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/marvell/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/mellanox/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/nxp/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netcope/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netronome/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/categories/nics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/quickstart/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/solarflare/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

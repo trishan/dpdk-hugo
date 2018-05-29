@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DPDK</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.31.1" />
+<title>Development Roadmap :: DPDK</title>
+<link rel="shortcut icon" href="/dpdk-hugo/images/favicon.png" type="image/x-icon" />
+<link href="/dpdk-hugo/css/font-awesome.min.css" rel="stylesheet">
+<link href="/dpdk-hugo/css/nucleus.css" rel="stylesheet">
+<link href="/dpdk-hugo/theme-flex/style.css" rel="stylesheet">
+
+	<link href="/dpdk-hugo/theme-flex/variant-gray.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/dpdk-hugo/css/bootstrap.min.css">
+<script src="/dpdk-hugo/js/jquery-2.x.min.js"></script>
+<script type="text/javascript">
+      var baseurl = "https:\/\/jeskaduman.github.io\/dpdk-hugo";
+</script>
+<meta name="description" content="">
+
+
+
+    
+  </head>
+  <body data-url="/dpdk-hugo/developmentroadmap/">
+    
+      <header>
+  <div class="logo">
+    
+	
+  
+    <p><a href="/" rel="DPDK"><img src="/img/dpdk-dark-logo-default.png" alt="DPDK logo" /></a></p>
+
+  
+
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="/dpdk-hugo/developmentroadmap/"  rel="noopener">
+                  <label>Development Roadmap</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="/dpdk-hugo/download"  rel="noopener">
+                  <label>Download</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="https://www.dpdk.org"  rel="noopener">
+                  <i class='fa fa-home'></i> <label>DPDK Home</label>
+                </a>
+            </li>
+    </nav>
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/dpdk-hugo/performancelab/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/performancelab/">Performance Lab</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/">Documentation</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/">Guides</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/linux_gsg/">Getting Started Guide for Linux</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/intro/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/linux_gsg/intro/">1. Introduction</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+        </ul>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/sys_reqs/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/linux_gsg/sys_reqs/">2. System Requirements</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/build_dpdk/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/linux_gsg/build_dpdk/">3. Compiling the DPDK Target from Source</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/freebsd_gsg/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/freebsd_gsg/">Getting Started Guide for FreeBSD</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/sample_app_ug/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/sample_app_ug/">Sample Applications User Guides</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/prog_guide/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/prog_guide/">Programmer&#39;s Guide</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/howto/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/howto/">HowTo Guides</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/tools/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/tools/">DPDK Tools User Guides</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/testpmd_app_ug/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/testpmd_app_ug/">Testpmd Application User Guide</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/nics/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/nics/">Network Interface Controller Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/bbdevs/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/bbdevs/">Baseband Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/cryptodevs/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/cryptodevs/">Crypto Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/compressdevs/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/compressdevs/">Compression Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/eventdevs/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/eventdevs/">Event Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/rawdevs/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/rawdevs/">Rawdev Drivers</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/mempool/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/mempool/">Mempool Device Driver</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/platform/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/platform/">Platform Specific Guides</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/contributing/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/contributing/">Contributor&#39;s Guidelines</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/guides/rel_notes/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/guides/rel_notes/">Release Notes</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+      <li data-nav-id="/doc/guides/faq/" class="dd-item">
+        <div>
+          <a href="/dpdk-hugo/doc/guides/faq/">
+            FAQ
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/dpdk-hugo/documentation/quickstart/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/documentation/quickstart/">Quick Start Guide</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/dpdk-hugo/performancereports/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/performancereports/">Performance Reports</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/dpdk-hugo/supportedhardware/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/dpdk-hugo/supportedhardware/">Supported Hardware</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/dpdk-hugo/supportedhardware/paravirtualization/" class="dd-item">
+        <div>
+          <a href="/dpdk-hugo/supportedhardware/paravirtualization/">
+            Paravirtualization
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/supportedhardware/other/" class="dd-item">
+        <div>
+          <a href="/dpdk-hugo/supportedhardware/other/">
+            Other Hardware
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dpdk-hugo/supportedhardware/attic/" class="dd-item">
+        <div>
+          <a href="/dpdk-hugo/supportedhardware/attic/">
+            Attic
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/dpdk-hugo/training/" class="dd-item
+        ">
+      <div>
+      <a href="/dpdk-hugo/training/">Training</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+
+
+
+
+    </ul>
+    <section><hr />
+
+<center>
+
+<a class="github-button" href="https://github.com/DPDK/dpdk.git" data-icon="octicon-cloud-download" aria-label="Download DPDK on GitHub">Download</a>
+
+
+<a class="github-button" href="https://github.com/DPDK/dpdk" data-icon="octicon-star" data-show-count="false" aria-label="Star DPDK on GitHub">Star</a>
+
+
+<a class="github-button" href="https://github.com/DPDK/dpdk/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork DPDK on GitHub">Fork</a>
+
+</center>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<hr />
+<div style="margin-top: 5%; padding: 3%; font-size: 12px;">
+  <div>
+  © DPDK Project. LF Projects, LLC uses various trademarks. For our trademark, privacy and antitrust policies, code of conduct and terms of use, please click the applicable link below or see www.lfprojects.org.
+  </div>
+  <div style="margin-top: 5%">
+  <a href="https://lfprojects.org/policies/terms-of-use/">Terms of Use</a> | <a href="https://lfprojects.org/policies/privacy-policy/">Privacy Policy</a> | <a href="https://lfprojects.org/policies/code-of-conduct/">Code of Conduct</a> | <a href="https://lfprojects.org/policies/trademark-policy/">Trademark Policy</a> | <a href="https://lfprojects.org/policies/antitrust-policy/">Antitrust Policy</a>
+  </div>
+</div>
+
+    </section>
+  </aside>
+  <section class="page">
+    
+    <div class="nav-select">
+      <center>Navigation : 
+        <select onchange="javascript:location.href = this.value;">
+          
+    <option value="/dpdk-hugo/performancelab/" >
+   Performance Lab</option>
+    <option value="/dpdk-hugo/documentation/" >
+   Documentation</option>
+    <option value="/dpdk-hugo/performancereports/" >
+   Performance Reports</option>
+    <option value="/dpdk-hugo/supportedhardware/" >
+   Supported Hardware</option>
+    <option value="/dpdk-hugo/training/" >
+   Training</option>
+    <option value="/dpdk-hugo/developmentroadmap/"  selected>
+   Development Roadmap</option> 
+  
+    <option value="/dpdk-hugo/download/" >
+   Download</option>
+
+
+
+        </select>
+      </center>
+    </div>
+      <div>
+        <div class="searchbox">
+          <input data-search-input id="search-by" type="text" placeholder="Search...">
+        </div>
+        <script type="text/javascript" src="/dpdk-hugo/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/dpdk-hugo/js/auto-complete.js"></script>
+        <link href="/dpdk-hugo/css/auto-complete.css" rel="stylesheet">
+        <script type="text/javascript">
+          
+              var baseurl = "https:\/\/jeskaduman.github.io\/dpdk-hugo";
+          
+        </script>
+        <script type="text/javascript" src="/dpdk-hugo/js/search.js"></script>
+      </div>
+    
+
+    <h1>Development Roadmap</h1>
+    
+    
+    
+
+
+
+<div class="notices info" ><p>Major known features and milestones may be noted here. This list is obviously neither complete nor guaranteed.</p>
+</div>
+
+
+<h2 id="version-18-05-2018-may">Version 18.05 (2018 May)</h2>
+
+<ul>
+<li>memory subsystem rework</li>
+<li>uevent support for hotplug</li>
+<li>new device specification (devargs) syntax</li>
+<li>secondary process support in virtual devices</li>
+<li>ethdev API for recommended descriptor ring sizes</li>
+<li>ethdev API to manage tunnel endpoints</li>
+<li>ethdev Rx/Tx offloads for various tunnels</li>
+<li>ethdev switch offloads</li>
+<li>ethdev port representor</li>
+<li>i40e PPPoE/PPPoL2Tv2</li>
+<li>mlx5 striding RQ (multi packets buffer)</li>
+<li>mlx5 tunnels offloads extended</li>
+<li>vhost interrupt mode</li>
+<li>selective datapath in vhost-user library</li>
+<li>new Intel driver (IFC VF) for accelerated virtio</li>
+<li>virtio-user for virtio-crypto</li>
+<li>tap TSO</li>
+<li>bonding support of flow API</li>
+<li>new API for hardware and software compression/decompression</li>
+<li>eventdev ordered and atomic queues for DPAA2</li>
+<li>eventdev crypto adapter</li>
+<li>eventdev timer adapter</li>
+<li>IP pipeline enhancements</li>
+<li>libedit integration</li>
+</ul>
+
+<h3 id="nice-to-have-future">Nice to have - Future</h3>
+
+<ul>
+<li>multi-process rework</li>
+<li>automatic UIO/VFIO binding</li>
+<li>infiniband driver class (ibdev)</li>
+<li>BPF support</li>
+<li>default configuration from files</li>
+<li>generic white/blacklisting</li>
+</ul>
+
+<h4 id="cycle-model">Cycle model</h4>
+
+<p>A typical release should be done after 3 months.</p>
+
+<p>It is designed to allow DPDK to keep evolving at a rapid pace while giving enough opportunity to review, discuss and improve the contributions.</p>
+
+<p>The merge window will open once the previous release is complete. First version of a new feature must be submitted before the proposal deadline. Features that miss this first period will be deferred until the next release.</p>
+
+<p>Updated versions of patches (v2, v3, etc.) will be submitted to address comments. The new features must be properly reviewed, tested and accepted before the integration deadline. Otherwise, they will be postponed to the next releases.</p>
+
+<p>At the end of the merge window, the first release candidate is out.</p>
+
+<p>The last period is 1 month long and is dedicated to bug fixing.</p>
+
+<h4 id="scheduling">Scheduling</h4>
+
+<h6 id="18-05">18.05</h6>
+
+<ul>
+<li>Proposal deadline: March 9, 2018</li>
+<li>Integration deadline: April 6, 2018</li>
+<li>Release: May 23, 2018</li>
+</ul>
+
+<h6 id="18-08">18.08</h6>
+
+<ul>
+<li>Proposal deadline: June 8, 2018</li>
+<li>Integration deadline: June 29, 2018</li>
+<li>Release: August 1, 2018</li>
+</ul>
+
+<h6 id="18-11-lts">18.11 (LTS)</h6>
+
+<ul>
+<li>Proposal deadline: September 7, 2018</li>
+<li>Integration deadline: October 5, 2018</li>
+<li>Release: November 2, 2018</li>
+</ul>
+
+<h3 id="stable-releases">Stable Releases</h3>
+
+<p>There is a documentation page describing the <a href="http://www.dpdk.org/doc/guides/contributing/stable.html">guidelines of the stable releases</a>.</p>
+
+<p>Stable point releases follow mainline releases.</p>
+
+<p>After each -rc tag and after the final version, relevant bug fixes get backported by the stable maintainers into the respective branches in &ldquo;bursts&rdquo;.</p>
+
+<p>Developers can provide stable-specific patches by sending them to stable@dpdk.org only (avoiding dev@dpdk.org).</p>
+
+<p>After all the relevant bugfixes have been backported, regression tests are ran, and if clear, the stable release is announced.</p>
+
+<p>Typically a new stable release version follows a mainline release by 1-2 weeks, depending on the test results.</p>
+
+<table>
+<thead>
+<tr>
+<th>Next version</th>
+<th>Date</th>
+<th>End of life</th>
+<th>Maintainer</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>16.11.7</td>
+<td>June 8, 2018</td>
+<td>November 2018 (LTS)</td>
+<td>Luca Boccassi</td>
+</tr>
+
+<tr>
+<td>17.11.3</td>
+<td>June 8, 2018</td>
+<td>November 2019 (LTS)</td>
+<td>Yuanhan Liu</td>
+</tr>
+
+<tr>
+<td>18.02.2</td>
+<td>June 8, 2018</td>
+<td>June 2018</td>
+<td>Luca Boccassi</td>
+</tr>
+
+<tr>
+<td>18.05.1</td>
+<td>August 24, 2018</td>
+<td>August 2018</td>
+<td>Christian Ehrhardt</td>
+</tr>
+
+<tr>
+<td>18.08.1</td>
+<td>November 16, 2018</td>
+<td>November 2018</td>
+<td>Looking for volunteer</td>
+</tr>
+
+<tr>
+<td>18.11.1</td>
+<td>January 11, 2019</td>
+<td>November 2020 (LTS)</td>
+<td>Kevin Traynor</td>
+</tr>
+</tbody>
+</table>
+
+
+
+    
+    
+        <div class="chevrons">
+    <div id="navigation">
+<a class="nav nav-next" href="/dpdk-hugo/performancelab/" title="Performance Lab" style="margin-right: 0px;"><label>Performance Lab</label><i class="fa fa-chevron-right"></i></a></div>
+  </div>
+
+  </section>
+</article>
+
+<footer>
+
+<div class="footline">
+    
+
+    
+
+  
+
+    <div class="github-link">
+      <a href="DevelopmentRoadmap/_index.md" target="blank"><i class="fa fa-code-fork"></i>
+        Improve this page</a>
+    </div>
+  </div>
+
+
+	<div>
+
+
+  
+    
+  
+
+
+
+	</div>
+</footer>
+
+<script src="/dpdk-hugo/js/clipboard.min.js"></script>
+
+<link href="/dpdk-hugo/css/featherlight.min.css" rel="stylesheet">
+<script src="/dpdk-hugo/js/featherlight.min.js"></script>
+
+
+
+<script src="/dpdk-hugo/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    
+  </body>
+</html>
