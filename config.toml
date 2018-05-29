@@ -1,4 +1,4 @@
-baseURL = "https://jeskaduman.github.io/dpdk-hugo"
+baseURL = "/"
 languageCode = "en-us"
 
 title = "DPDK"
