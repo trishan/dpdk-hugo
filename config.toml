@@ -1,0 +1,31 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+
+title = "DPDK"
+theme = "docdock"
+
+[params]
+themeStyle = "flex"
+themeVariant = "gray"
+showVisitedLinks = true
+enableGitInfo = true
+disableHomeIcon = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "<label>Development Roadmap</label>"
+identifier = "devmap"
+url = "/DevelopmentRoadmap/"
+weight = 1
+
+[[menu.shortcuts]]
+name = "<label>Download</label>"
+url = "/download"
+weight = 2
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-home'></i> <label>DPDK Home</label>"
+url = "https://www.dpdk.org"
+weight = 3
