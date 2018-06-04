@@ -2,6 +2,8 @@
 title = "Cavium"
 categories = ["NICs"]
 hidden = true
+type = "nic"
+weight = "4"
 +++
 
 - [thunderx](http://www.dpdk.org/doc/guides/nics/thunderx.html) (CN88XX, CN83XX, CN81XX, CN80XX)

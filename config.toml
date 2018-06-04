@@ -23,11 +23,17 @@ url = "/DevelopmentRoadmap/"
 weight = 1
 
 [[menu.shortcuts]]
+name = "<label>Documentation</label>"
+identifier = "docs"
+url = "http://dpdk.org/doc/guides/"
+weight = 2
+
+[[menu.shortcuts]]
 name = "<label>Download</label>"
 url = "/download"
-weight = 2
+weight = 3
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-home'></i> <label>DPDK Home</label>"
 url = "https://www.dpdk.org"
-weight = 3
+weight = 4

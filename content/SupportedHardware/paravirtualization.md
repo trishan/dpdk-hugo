@@ -1,9 +1,8 @@
 +++
 title = "Paravirtualization"
-weight = "1"
+weight = "14"
 +++
 
-- avp (Wind River Accelerated Virtual Port)
-- virtio-net (QEMU)
-- vmxnet3 (VMware ESXi)
-- xenvirt (Xen)
+- [avp](http://dpdk.org/doc/guides/nics/avp.html) (Wind River Accelerated Virtual Port)
+- [virtio-net](http://dpdk.org/doc/guides/nics/virtio.html) (QEMU)
+- [vmxnet3](http://dpdk.org/doc/guides/nics/vmxnet3.html) (VMware ESXi)

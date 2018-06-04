@@ -1,8 +1,7 @@
 +++
 title = "Attic"
-weight = "3"
+weight = "16"
 +++
 
-- memnic (Qemu IVSHMEM)
-- vmxnet3 usermap (VMware ESXi without uio)
-- oce (Emulex OneConnect OCe14000)
+- [memnic](http://dpdk.org/doc/memnic-pmd) (Qemu IVSHMEM)
+- [vmxnet3 usermap](http://dpdk.org/doc/vmxnet3-usermap) (VMware ESXi without uio)

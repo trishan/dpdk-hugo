@@ -8,6 +8,7 @@ Major known features and milestones may be noted here. This list is obviously ne
 {{% /notice %}}
 
 ## Version 18.05 (2018 May)
+----
 - memory subsystem rework
 - uevent support for hotplug
 - new device specification (devargs) syntax
@@ -34,6 +35,7 @@ Major known features and milestones may be noted here. This list is obviously ne
 - libedit integration
 
 ### Nice to have - Future
+----
 - multi-process rework
 - automatic UIO/VFIO binding
 - infiniband driver class (ibdev)
@@ -42,6 +44,7 @@ Major known features and milestones may be noted here. This list is obviously ne
 - generic white/blacklisting
 
 #### Cycle model
+----
 A typical release should be done after 3 months.
 
 It is designed to allow DPDK to keep evolving at a rapid pace while giving enough opportunity to review, discuss and improve the contributions.
@@ -55,26 +58,31 @@ At the end of the merge window, the first release candidate is out.
 The last period is 1 month long and is dedicated to bug fixing.
 
 #### Scheduling
+----
 
 ###### 18.05
+----
 
 - Proposal deadline: March 9, 2018
 - Integration deadline: April 6, 2018
 - Release: May 23, 2018
 
 ###### 18.08
+----
 
 - Proposal deadline: June 8, 2018
 - Integration deadline: June 29, 2018
 - Release: August 1, 2018
 
 ###### 18.11 (LTS)
+----
 
 - Proposal deadline: September 7, 2018
 - Integration deadline: October 5, 2018
 - Release: November 2, 2018
 
 ### Stable Releases
+----
 
 There is a documentation page describing the [guidelines of the stable releases](http://www.dpdk.org/doc/guides/contributing/stable.html).
 

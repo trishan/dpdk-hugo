@@ -2,6 +2,8 @@
 title = "Netronome"
 categories = ["NICs"]
 hidden = true
+type = "nic"
+weight = "11"
 +++
 
-- nfp (NFP-4xxx, NFP-6xxx)
+- [nfp](http://dpdk.org/doc/guides/nics/nfp.html) (NFP-4xxx, NFP-6xxx)
