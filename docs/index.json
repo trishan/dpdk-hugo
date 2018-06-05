@@ -1,202 +1,202 @@
 [
 {
-	"uri": "/supportedhardware/nics/amazon/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/amazon/",
 	"title": "Amazon",
 	"tags": [],
 	"description": "",
 	"content": " ena (Elastic Network Adapter)  "
 },
 {
-	"uri": "/performancelab/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/performancelab/",
 	"title": "Performance Lab",
 	"tags": [],
 	"description": "",
 	"content": " What it\u0026rsquo;s for  Automated performance regression testing of new patches.  When a new patch is received, automatically test and determine if it degrades performance on one or more architectures. Provides input to Maintainers on whether to accept patches or request re-work.  Scope may expand in future: test DPDK-enabled SW apps, uselab for demos, etc.  "
 },
 {
-	"uri": "/supportedhardware/nics/atomicrules/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/atomicrules/",
 	"title": "Atomic Rules",
 	"tags": [],
 	"description": "",
 	"content": " ark (Arkville Packet Conduit FX0/FX1)  "
 },
 {
-	"uri": "/supportedhardware/nics/broadcom/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/broadcom/",
 	"title": "Broadcom",
 	"tags": [],
 	"description": "",
 	"content": " bnxt (NetXtreme-C, NetXtreme-E, StrataGX)  "
 },
 {
-	"uri": "/supportedhardware/nics/cavium/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cavium/",
 	"title": "Cavium",
 	"tags": [],
 	"description": "",
 	"content": " thunderx (CN88XX, CN83XX, CN81XX, CN80XX) octeontx (CN83XX) liquidio (LiquidIO II CN23XX) bnx2x (QLogic 578xx) qede (QLogic FastLinQ QL4xxxx)  "
 },
 {
-	"uri": "/performancereports/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/performancereports/",
 	"title": "Performance Reports",
 	"tags": [],
 	"description": "",
 	"content": " DPDK 18.02 Intel NIC Performance Report DPDK 18.02 Intel Vhost/Virtio Performance Report DPDK 18.02 Intel Crypto Performance Report DPDK 17.11 Intel NIC Performance Report DPDK 17.11 Intel Vhost/Virtio Performance Report DPDK 17.11 Intel Crypto Performance Report DPDK 17.11 Mellanox NIC Performance Report DPDK 17.08 Intel NIC Performance Report DPDK 17.08 Intel Vhost/Virtio Performance Report DPDK 17.05 Intel NIC Performance Report DPDK 17.05 Intel Vhost/Virtio Performance Report DPDK 17.05 Mellanox NIC Performance Report DPDK 17.05 Netcope NIC Performance Report DPDK 17.02 Intel NIC Performance Report DPDK 17.02 Intel Vhost/Virtio Performance Report DPDK 17.02 Mellanox NIC Performance Report DPDK 16.11 Intel NIC Performance Report  "
 },
 {
-	"uri": "/supportedhardware/nics/chelsio/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/chelsio/",
 	"title": "Chelsio",
 	"tags": [],
 	"description": "",
 	"content": " cxgbe (Terminator 5, Terminator 6)  "
 },
 {
-	"uri": "/supportedhardware/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/",
 	"title": "Supported Hardware",
 	"tags": [],
 	"description": "",
 	"content": "Features supported by the drivers can be checked in the networking drivers matrix.\n   Amazon  ena (Elastic Network Adapter)   Atomic Rules  ark (Arkville Packet Conduit FX0/FX1)   Broadcom  bnxt (NetXtreme-C, NetXtreme-E, StrataGX)   Cavium  thunderx (CN88XX, CN83XX, CN81XX, CN80XX) octeontx (CN83XX) liquidio (LiquidIO II CN23XX) bnx2x (QLogic 578xx) qede (QLogic FastLinQ QL4xxxx)   Chelsio  cxgbe (Terminator 5, Terminator 6)   Cisco  enic (UCS Virtual Interface Card)   Intel  e1000 (82540, 82545, 82546) e1000e (82571, 82572, 82573, 82574, 82583, ICH8, ICH9, ICH10, PCH, PCH2, I217, I218, I219) igb (82575, 82576, 82580, I210, I211, I350, I354, DH89xx) ixgbe (82598, 82599, X520, X540, X550) i40e (X710, XL710, X722) fm10k (FM10420) Note: The drivers e1000 and e1000e are also called em. The drivers em and igb are sometimes grouped in e1000 family.   Marvell  mrvl (Marvell Packet Processor v2)   Mellanox  mlx4 (ConnectX-3, ConnectX-3 Pro) mlx5 (ConnectX-4, ConnectX-4 Lx, ConnectX-5)   Netcope  szedata2 (NFB-, NPC-, NSF-*)   Netronome  nfp (NFP-4xxx, NFP-6xxx)   NXP  dpaa (LS102x, LS1043, LS1046) dpaa2 (LS1048, LS108x, LS20xx, LX216x)   Solarflare  sfc_efx (SFN7xxx, SFN8xxx)   Paravirtualization  avp (Wind River Accelerated Virtual Port) virtio-net (QEMU) vmxnet3 (VMware ESXi)   Other Hardware  af_packet (Linux AF_PACKET socket) tap (kernel L2) pcap (file or kernel driver) ring (memory)   Attic  memnic (Qemu IVSHMEM) vmxnet3 usermap (VMware ESXi without uio)   "
 },
 {
-	"uri": "/supportedhardware/nics/cisco/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cisco/",
 	"title": "Cisco",
 	"tags": [],
 	"description": "",
 	"content": " enic (UCS Virtual Interface Card)  "
 },
 {
-	"uri": "/supportedhardware/nics/intel/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/intel/",
 	"title": "Intel",
 	"tags": [],
 	"description": "",
 	"content": " e1000 (82540, 82545, 82546) e1000e (82571, 82572, 82573, 82574, 82583, ICH8, ICH9, ICH10, PCH, PCH2, I217, I218, I219) igb (82575, 82576, 82580, I210, I211, I350, I354, DH89xx) ixgbe (82598, 82599, X520, X540, X550) i40e (X710, XL710, X722) fm10k (FM10420)  Note: The drivers e1000 and e1000e are also called em. The drivers em and igb are sometimes grouped in e1000 family.\n "
 },
 {
-	"uri": "/training/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/training/",
 	"title": "Training",
 	"tags": [],
 	"description": "",
 	"content": " Resources available online:  DPDK Summits Presentation Intel Network Drivers University (Registration is free, but required)  For instructor-led training services, please refer to our Companies list.\n"
 },
 {
-	"uri": "/supportedhardware/nics/marvell/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/marvell/",
 	"title": "Marvell",
 	"tags": [],
 	"description": "",
 	"content": " mrvl (Marvell Packet Processor v2)  "
 },
 {
-	"uri": "/supportedhardware/nics/mellanox/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/mellanox/",
 	"title": "Mellanox",
 	"tags": [],
 	"description": "",
 	"content": " mlx4 (ConnectX-3, ConnectX-3 Pro) mlx5 (ConnectX-4, ConnectX-4 Lx, ConnectX-5)  "
 },
 {
-	"uri": "/supportedhardware/nics/netcope/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netcope/",
 	"title": "Netcope",
 	"tags": [],
 	"description": "",
 	"content": " szedata2 (NFB-, NPC-, NSF-*)  "
 },
 {
-	"uri": "/supportedhardware/nics/netronome/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netronome/",
 	"title": "Netronome",
 	"tags": [],
 	"description": "",
 	"content": " nfp (NFP-4xxx, NFP-6xxx)  "
 },
 {
-	"uri": "/supportedhardware/nics/nxp/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/nxp/",
 	"title": "NXP",
 	"tags": [],
 	"description": "",
 	"content": " dpaa (LS102x, LS1043, LS1046) dpaa2 (LS1048, LS108x, LS20xx, LX216x)  "
 },
 {
-	"uri": "/supportedhardware/nics/solarflare/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/solarflare/",
 	"title": "Solarflare",
 	"tags": [],
 	"description": "",
 	"content": " sfc_efx (SFN7xxx, SFN8xxx)  "
 },
 {
-	"uri": "/supportedhardware/paravirtualization/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/paravirtualization/",
 	"title": "Paravirtualization",
 	"tags": [],
 	"description": "",
 	"content": " avp (Wind River Accelerated Virtual Port) virtio-net (QEMU) vmxnet3 (VMware ESXi)  "
 },
 {
-	"uri": "/supportedhardware/other/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/other/",
 	"title": "Other Hardware",
 	"tags": [],
 	"description": "",
 	"content": " af_packet (Linux AF_PACKET socket) tap (kernel L2) pcap (file or kernel driver) ring (memory)  "
 },
 {
-	"uri": "/supportedhardware/attic/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/attic/",
 	"title": "Attic",
 	"tags": [],
 	"description": "",
 	"content": " memnic (Qemu IVSHMEM) vmxnet3 usermap (VMware ESXi without uio)  "
 },
 {
-	"uri": "/_footer/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/_footer/",
 	"title": "",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/_header/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/_header/",
 	"title": "",
 	"tags": [],
 	"description": "",
 	"content": "\n"
 },
 {
-	"uri": "/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/",
 	"title": "",
 	"tags": [],
 	"description": "",
 	"content": " DPDK is a set of libraries and drivers for fast packet processing DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.  Features:  Designed to run on any processor Runs mostly in Linux userland DPDK is an Open Source BSD licensed project   Download Now  \nSample Architecture mermaid.initialize({startOnLoad:true}); graph LR; A[Hard edge] --|Link| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]  "
 },
 {
-	"uri": "/categories/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/developmentroadmap/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/developmentroadmap/",
 	"title": "Development Roadmap",
 	"tags": [],
 	"description": "",
 	"content": " Major known features and milestones may be noted here. This list is obviously neither complete nor guaranteed.\n Version 18.05 (2018 May)  memory subsystem rework uevent support for hotplug new device specification (devargs) syntax secondary process support in virtual devices ethdev API for recommended descriptor ring sizes ethdev API to manage tunnel endpoints ethdev Rx/Tx offloads for various tunnels ethdev switch offloads ethdev port representor i40e PPPoE/PPPoL2Tv2 mlx5 striding RQ (multi packets buffer) mlx5 tunnels offloads extended vhost interrupt mode selective datapath in vhost-user library new Intel driver (IFC VF) for accelerated virtio virtio-user for virtio-crypto tap TSO bonding support of flow API new API for hardware and software compression/decompression eventdev ordered and atomic queues for DPAA2 eventdev crypto adapter eventdev timer adapter IP pipeline enhancements libedit integration  Nice to have - Future  multi-process rework automatic UIO/VFIO binding infiniband driver class (ibdev) BPF support default configuration from files generic white/blacklisting  Cycle model A typical release should be done after 3 months.\nIt is designed to allow DPDK to keep evolving at a rapid pace while giving enough opportunity to review, discuss and improve the contributions.\nThe merge window will open once the previous release is complete. First version of a new feature must be submitted before the proposal deadline. Features that miss this first period will be deferred until the next release.\nUpdated versions of patches (v2, v3, etc.) will be submitted to address comments. The new features must be properly reviewed, tested and accepted before the integration deadline. Otherwise, they will be postponed to the next releases.\nAt the end of the merge window, the first release candidate is out.\nThe last period is 1 month long and is dedicated to bug fixing.\nScheduling 18.05  Proposal deadline: March 9, 2018 Integration deadline: April 6, 2018 Release: May 23, 2018  18.08  Proposal deadline: June 8, 2018 Integration deadline: June 29, 2018 Release: August 1, 2018  18.11 (LTS)  Proposal deadline: September 7, 2018 Integration deadline: October 5, 2018 Release: November 2, 2018  Stable Releases There is a documentation page describing the guidelines of the stable releases.\nStable point releases follow mainline releases.\nAfter each -rc tag and after the final version, relevant bug fixes get backported by the stable maintainers into the respective branches in \u0026ldquo;bursts\u0026rdquo;.\nDevelopers can provide stable-specific patches by sending them to stable@dpdk.org only (avoiding dev@dpdk.org).\nAfter all the relevant bugfixes have been backported, regression tests are ran, and if clear, the stable release is announced.\nTypically a new stable release version follows a mainline release by 1-2 weeks, depending on the test results.\n   Next version Date End of life Maintainer     16.11.7 June 8, 2018 November 2018 (LTS) Luca Boccassi   17.11.3 June 8, 2018 November 2019 (LTS) Yuanhan Liu   18.02.2 June 8, 2018 June 2018 Luca Boccassi   18.05.1 August 24, 2018 August 2018 Christian Ehrhardt   18.08.1 November 16, 2018 November 2018 Looking for volunteer   18.11.1 January 11, 2019 November 2020 (LTS) Kevin Traynor    "
 },
 {
-	"uri": "/documentation/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/",
 	"title": "Documentation",
 	"tags": [],
 	"description": "",
 	"content": " For a first try, you should follow the quick start instructions.\n  See the list of supported NICs, which includes PCI NICs and paravirtualized NICs.\n API documentation is generated thanks to doxygen.\n  Quick Links to Documentation  User Guides  Programmer's Guide  Release Notes  Documentation is also available in PDF format. \nApplications  pktgen-dpdk (traffic generator)  Tools  DTS (DPDK Test Suite) User Guide DTS Test Plans  Archives  Documentation for previous versions Unmaintained driver for QEMU IVSHMEM: memnic-pmd. Unmaintained driver for VMware ESXi vmxnet3 without uio: vmxnet3-usermap.  "
 },
 {
-	"uri": "/download/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/download/",
 	"title": "Download",
 	"tags": [],
 	"description": "",
 	"content": "    Latest Major 18.02.1  Latest Stable 17.11.2 (LTS)  Other Versions LTS and Older  Quick Start Guide   Applications  pktgen-dpdk (traffic generator)  Tools  dts (test suite)]  Unmaintained Extensions  memnic - latest: 1.3 vmxnet3-usermap - latest: 1.2  "
 },
 {
-	"uri": "/categories/nics/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/categories/nics/",
 	"title": "Nics",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tags/",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
