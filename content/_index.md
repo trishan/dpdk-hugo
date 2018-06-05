@@ -15,7 +15,7 @@ identifier = "home"
 - Runs mostly in Linux userland
 - DPDK is an Open Source BSD licensed project
 
-<center>{{< button href="/download" >}} Download Now {{< /button >}}
+<center>{{< button href="{{ .Site.BaseURL }}/download" >}} Download Now {{< /button >}}
 </center>
 
 ##### Sample Architecture

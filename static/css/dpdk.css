@@ -11,7 +11,7 @@ header .logo img {
 }
 
 .main-hero {
-  background: linear-gradient(rgba(86,15,125,.5),rgba(255,99,0,.5)), url('/img/bg_tunnel.jpg');
+  background: linear-gradient(rgba(86,15,125,.5),rgba(255,99,0,.5)), url('https://jeskaduman.github.io/dpdk-hugo/img/bg_tunnel.jpg');
   color: #fff;
   width: 100%;
   margin-top: 2%;
