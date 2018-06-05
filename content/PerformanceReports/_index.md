@@ -1,6 +1,5 @@
 +++
 title = "Performance Reports"
-hidden = true
 weight = 4
 +++
 
