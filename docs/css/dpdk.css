@@ -1,0 +1,185 @@
+header {
+  height: 5rem;
+}
+
+header:after {
+  display: none;
+}
+
+header .logo img {
+  height: 44px;
+}
+
+.main-hero {
+  background: linear-gradient(rgba(86,15,125,.5),rgba(255,99,0,.5)), url('/img/bg_tunnel.jpg');
+  color: #fff;
+  width: 100%;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+.main-hero h2 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+
+.tagline {
+  text-align: center;
+  padding: 0 5%;
+  line-height: 1.6;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400 !important;
+  margin-top: 6%;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+p,
+ul li {
+  font-size: 18px;
+}
+
+ul li {
+  margin: 1%;
+}
+
+a,
+ul li a {
+  color: #f04e23;
+}
+
+a:hover,
+ul li a:hover,
+a:active,
+ul li a:active {
+  color: #000;
+}
+
+article section.page h1:first-of-type {
+  background: linear-gradient(rgba(86,15,125,.5),rgba(63,16,99,.5)), url('/img/bg_tunnel.jpg');
+  color: #fff;
+  width: 100%;
+  margin-top: 2%;
+  padding: 6% 0;
+  font-family: 'Roboto';
+}
+
+aside .menu li a {
+  color: #333;
+}
+
+nav.shortcuts li a {
+  font-size: 16px;
+  color: #f7fff4;
+  position: relative;
+}
+
+nav.shortcuts li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #ff6300;
+  transition: 0.4s;
+}
+
+nav.shortcuts li a:hover:after {
+  transform: scaleX(1);
+}
+
+nav.shortcuts li a:hover {
+  background-color: #333 !important;
+}
+
+nav.shortcuts li a:hover:after {
+  width: 100%;
+}
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 1% 2%;
+  margin: 1%;
+}
+
+.btn-primary {
+  background-color: #ff3900;
+  border-color: #e53300;
+}
+
+.btn-primary:hover {
+  background-color: #ff6300;
+  border-color: #ff3900;
+}
+
+nav.shortcuts li a {
+  // animated underline links
+}
+
+article > aside .menu .dd-item {
+  font-size: 16px;
+}
+
+.dwnld-btn-group {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.dwnld-btn-group .dwnld-btn {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 30px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 1px;
+  width: 200px;
+  text-align: center;
+}
+
+.dwnld-btn-group .dwnld-btn span {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dwnld-btn-group .dwnld-btn:hover {
+  opacity: 0.6;
+}
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+}
+
+.github-footer {
+  padding-bottom: 5%;
+}
+
+.lf-footer {
+  background-color: #1c1c1c;
+  color: gray;
+  padding: 5%;
+  padding-top: 10%;
+  font-size: 12px;
+}
+
+.lf-footer a {
+  color: #fff;
+}
+
+.lf-footer a:hover {
+  color: #f04e23;
+}

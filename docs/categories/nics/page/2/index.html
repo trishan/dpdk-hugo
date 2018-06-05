@@ -7,32 +7,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.31.1" />
 <title>Nics :: DPDK</title>
-<link rel="shortcut icon" href="/dpdk-hugo/images/favicon.png" type="image/x-icon" />
-<link href="/dpdk-hugo/css/font-awesome.min.css" rel="stylesheet">
-<link href="/dpdk-hugo/css/nucleus.css" rel="stylesheet">
-<link href="/dpdk-hugo/theme-flex/style.css" rel="stylesheet">
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link href="/css/font-awesome.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
 
-	<link href="/dpdk-hugo/theme-flex/variant-gray.css" rel="stylesheet">
+	<link href="/theme-flex/variant-gray.css" rel="stylesheet">
 
-<link rel="stylesheet" href="/dpdk-hugo/css/bootstrap.min.css">
-<script src="/dpdk-hugo/js/jquery-2.x.min.js"></script>
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/jquery-2.x.min.js"></script>
 <script type="text/javascript">
-      var baseurl = "https:\/\/jeskaduman.github.io\/dpdk-hugo";
+      var baseurl = "\/";
 </script>
-<meta name="description" content="">
-
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+  <link rel="stylesheet" href="/css/dpdk.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
 
 
     
   </head>
-  <body data-url="/dpdk-hugo/categories/nics/">
+  <body data-url="/categories/nics/">
     
       <header>
   <div class="logo">
     
 	
   
-    <p><a href="/" rel="DPDK"><img src="https://jeskaduman.github.io/dpdk-hugo/img/dpdk-dark-logo-default.png" alt="DPDK logo" /></a></p>
+    <p><a href="/" rel="DPDK"><img src="/img/dpdk-dark-logo-default.png" alt="DPDK logo" /></a></p>
 
   
 
@@ -40,12 +43,17 @@
   <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
     <nav class="shortcuts">
             <li class="" role="">
-                <a href="/dpdk-hugo/developmentroadmap/"  rel="noopener">
+                <a href="/developmentroadmap/"  rel="noopener">
                   <label>Development Roadmap</label>
                 </a>
             </li>
             <li class="" role="">
-                <a href="/dpdk-hugo/download"  rel="noopener">
+                <a href="http://dpdk.org/doc/guides/"  rel="noopener">
+                  <label>Documentation</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="/download"  rel="noopener">
                   <label>Download</label>
                 </a>
             </li>
@@ -59,204 +67,63 @@
 <article>
   <aside>
     <ul class="menu">
-    <li data-nav-id="/dpdk-hugo/performancelab/" class="dd-item
+    <li data-nav-id="/performancelab/" class="dd-item
         ">
       <div>
-      <a href="/dpdk-hugo/performancelab/">Performance Lab</a><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/performancelab/">Performance Lab</a><i class="fa fa-circle-thin read-icon"></i>
       </div>
     </li>
-    <li data-nav-id="/dpdk-hugo/documentation/" class="dd-item haschildren
+    <li data-nav-id="/performancereports/" class="dd-item
         ">
       <div>
-      <a href="/dpdk-hugo/documentation/">Documentation</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/performancereports/">Performance Reports</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/supportedhardware/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/supportedhardware/">Supported Hardware</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/" class="dd-item haschildren
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/">Guides</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-        <ul>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/" class="dd-item haschildren
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/linux_gsg/">Getting Started Guide for Linux</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-        <ul>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/intro/" class="dd-item haschildren
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/linux_gsg/intro/">1. Introduction</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-        <ul>
-        </ul>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/sys_reqs/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/linux_gsg/sys_reqs/">2. System Requirements</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/linux_gsg/build_dpdk/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/linux_gsg/build_dpdk/">3. Compiling the DPDK Target from Source</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-        </ul>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/freebsd_gsg/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/freebsd_gsg/">Getting Started Guide for FreeBSD</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/sample_app_ug/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/sample_app_ug/">Sample Applications User Guides</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/prog_guide/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/prog_guide/">Programmer&#39;s Guide</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/howto/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/howto/">HowTo Guides</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/tools/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/tools/">DPDK Tools User Guides</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/testpmd_app_ug/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/testpmd_app_ug/">Testpmd Application User Guide</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/nics/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/nics/">Network Interface Controller Drivers</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/bbdevs/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/bbdevs/">Baseband Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/cryptodevs/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/cryptodevs/">Crypto Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/compressdevs/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/compressdevs/">Compression Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/eventdevs/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/eventdevs/">Event Device Drivers</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/rawdevs/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/rawdevs/">Rawdev Drivers</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/mempool/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/mempool/">Mempool Device Driver</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/platform/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/platform/">Platform Specific Guides</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/contributing/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/contributing/">Contributor&#39;s Guidelines</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/guides/rel_notes/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/guides/rel_notes/">Release Notes</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-      <li data-nav-id="/doc/guides/faq/" class="dd-item">
+      <li data-nav-id="/supportedhardware/paravirtualization/" class="dd-item">
         <div>
-          <a href="/dpdk-hugo/doc/guides/faq/">
-            FAQ
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-        </ul>
-    </li>
-    <li data-nav-id="/dpdk-hugo/documentation/quickstart/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/documentation/quickstart/">Quick Start Guide</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-        </ul>
-    </li>
-    <li data-nav-id="/dpdk-hugo/performancereports/" class="dd-item
-        ">
-      <div>
-      <a href="/dpdk-hugo/performancereports/">Performance Reports</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/dpdk-hugo/supportedhardware/" class="dd-item haschildren
-        ">
-      <div>
-      <a href="/dpdk-hugo/supportedhardware/">Supported Hardware</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-        <ul>
-      <li data-nav-id="/dpdk-hugo/supportedhardware/paravirtualization/" class="dd-item">
-        <div>
-          <a href="/dpdk-hugo/supportedhardware/paravirtualization/">
+          <a href="/supportedhardware/paravirtualization/">
             Paravirtualization
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
       <li data-nav-id="/supportedhardware/other/" class="dd-item">
         <div>
-          <a href="/dpdk-hugo/supportedhardware/other/">
+          <a href="/supportedhardware/other/">
             Other Hardware
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
-      <li data-nav-id="/dpdk-hugo/supportedhardware/attic/" class="dd-item">
+      <li data-nav-id="/supportedhardware/attic/" class="dd-item">
         <div>
-          <a href="/dpdk-hugo/supportedhardware/attic/">
+          <a href="/supportedhardware/attic/">
             Attic
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
         </ul>
     </li>
-    <li data-nav-id="/dpdk-hugo/training/" class="dd-item
+    <li data-nav-id="/training/" class="dd-item
         ">
       <div>
-      <a href="/dpdk-hugo/training/">Training</a><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/training/">Training</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/documentation/" class="dd-item
+        ">
+      <div>
+      <a href="/documentation/">Documentation</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/download/" class="dd-item
+        ">
+      <div>
+      <a href="/download/">Download</a><i class="fa fa-circle-thin read-icon"></i>
       </div>
     </li>
 
@@ -264,29 +131,30 @@
 
 
     </ul>
-    <section><hr />
+    <section><div class="footer-container">
+  <hr />
+  <div class="github-footer">
+    <center>
+    
+    <a class="github-button" href="https://github.com/DPDK/dpdk.git" data-icon="octicon-cloud-download" aria-label="Download DPDK on GitHub">Download</a>
 
-<center>
+    
+    <a class="github-button" href="https://github.com/DPDK/dpdk" data-icon="octicon-star" data-show-count="false" aria-label="Star DPDK on GitHub">Star</a>
 
-<a class="github-button" href="https://github.com/DPDK/dpdk.git" data-icon="octicon-cloud-download" aria-label="Download DPDK on GitHub">Download</a>
+    
+    <a class="github-button" href="https://github.com/DPDK/dpdk/fork"   data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork DPDK   on GitHub">Fork</a>
 
-
-<a class="github-button" href="https://github.com/DPDK/dpdk" data-icon="octicon-star" data-show-count="false" aria-label="Star DPDK on GitHub">Star</a>
-
-
-<a class="github-button" href="https://github.com/DPDK/dpdk/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork DPDK on GitHub">Fork</a>
-
-</center>
-
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-
-<hr />
-<div style="margin-top: 5%; padding: 3%; font-size: 12px;">
-  <div>
-  © DPDK Project. LF Projects, LLC uses various trademarks. For our trademark, privacy and antitrust policies, code of conduct and terms of use, please click the applicable link below or see www.lfprojects.org.
+    </center>
+    
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </div>
-  <div style="margin-top: 5%">
-  <a href="https://lfprojects.org/policies/terms-of-use/">Terms of Use</a> | <a href="https://lfprojects.org/policies/privacy-policy/">Privacy Policy</a> | <a href="https://lfprojects.org/policies/code-of-conduct/">Code of Conduct</a> | <a href="https://lfprojects.org/policies/trademark-policy/">Trademark Policy</a> | <a href="https://lfprojects.org/policies/antitrust-policy/">Antitrust Policy</a>
+  <div class="lf-footer">
+    <div>
+    © DPDK Project. LF Projects, LLC uses various trademarks. For our trademark, privacy and antitrust policies, code of conduct and terms of use, please click the applicable link below or see www.lfprojects.org.
+    </div>
+    <div style="margin-top: 5%">
+  <a href="https://lfprojects.org/policies/terms-of-use/">Terms of Use</a> |   <a href="https://lfprojects.org/policies/privacy-policy/">Privacy Policy</a> | <a href="https://lfprojects.org/policies/code-of-conduct/">Code of Conduct</a> | <a href="https://lfprojects.org/policies/trademark-policy/">Trademark Policy</a> | <a href="https://lfprojects.org/policies/antitrust-policy/">Antitrust Policy</a>
+    </div>
   </div>
 </div>
 
@@ -298,19 +166,19 @@
       <center>Navigation : 
         <select onchange="javascript:location.href = this.value;">
           
-    <option value="/dpdk-hugo/performancelab/" >
+    <option value="/performancelab/" >
    Performance Lab</option>
-    <option value="/dpdk-hugo/documentation/" >
-   Documentation</option>
-    <option value="/dpdk-hugo/performancereports/" >
+    <option value="/performancereports/" >
    Performance Reports</option>
-    <option value="/dpdk-hugo/supportedhardware/" >
+    <option value="/supportedhardware/" >
    Supported Hardware</option>
-    <option value="/dpdk-hugo/training/" >
+    <option value="/training/" >
    Training</option>
-    <option value="/dpdk-hugo/developmentroadmap/" >
+    <option value="/developmentroadmap/" >
    Development Roadmap</option>
-    <option value="/dpdk-hugo/download/" >
+    <option value="/documentation/" >
+   Documentation</option>
+    <option value="/download/" >
    Download</option>
 
 
@@ -322,15 +190,15 @@
         <div class="searchbox">
           <input data-search-input id="search-by" type="text" placeholder="Search...">
         </div>
-        <script type="text/javascript" src="/dpdk-hugo/js/lunr.min.js"></script>
-        <script type="text/javascript" src="/dpdk-hugo/js/auto-complete.js"></script>
-        <link href="/dpdk-hugo/css/auto-complete.css" rel="stylesheet">
+        <script type="text/javascript" src="/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/js/auto-complete.js"></script>
+        <link href="/css/auto-complete.css" rel="stylesheet">
         <script type="text/javascript">
           
-              var baseurl = "https:\/\/jeskaduman.github.io\/dpdk-hugo";
+              var baseurl = "\/";
           
         </script>
-        <script type="text/javascript" src="/dpdk-hugo/js/search.js"></script>
+        <script type="text/javascript" src="/js/search.js"></script>
       </div>
     
 
@@ -344,7 +212,7 @@
 <div class="extra-pagination inner">
 <nav class="pagination" role="navigation">
 	
-	    <a class="newer-posts" href="/dpdk-hugo/categories/nics/">&larr; Previous Pages</a>
+	    <a class="newer-posts" href="/categories/nics/">&larr; Previous Pages</a>
 	
 	<span class="page-number">Page 2 of 2</span>
 	
@@ -355,10 +223,10 @@
 
    <article class="post SupportedHardware">
     <header class="post-header">
-        <h2 class="post-title"><a href="/dpdk-hugo/supportedhardware/nics/netcope/">Netcope</a></h2>
+        <h2 class="post-title"><a href="/supportedhardware/nics/netcope/">Netcope</a></h2>
     </header>
     <section class="post-excerpt">
-        <p> szedata2 (NFB-, NPC-, NSF-*)   <a class="read-more" href="/dpdk-hugo/supportedhardware/nics/netcope/">&raquo;</a></p>
+        <p> szedata2 (NFB-, NPC-, NSF-*)   <a class="read-more" href="/supportedhardware/nics/netcope/">&raquo;</a></p>
     </section>
     <footer class=" footline" >
          
@@ -372,10 +240,10 @@
 
    <article class="post SupportedHardware">
     <header class="post-header">
-        <h2 class="post-title"><a href="/dpdk-hugo/supportedhardware/nics/netronome/">Netronome</a></h2>
+        <h2 class="post-title"><a href="/supportedhardware/nics/netronome/">Netronome</a></h2>
     </header>
     <section class="post-excerpt">
-        <p> nfp (NFP-4xxx, NFP-6xxx)   <a class="read-more" href="/dpdk-hugo/supportedhardware/nics/netronome/">&raquo;</a></p>
+        <p> nfp (NFP-4xxx, NFP-6xxx)   <a class="read-more" href="/supportedhardware/nics/netronome/">&raquo;</a></p>
     </section>
     <footer class=" footline" >
          
@@ -389,10 +257,10 @@
 
    <article class="post SupportedHardware">
     <header class="post-header">
-        <h2 class="post-title"><a href="/dpdk-hugo/supportedhardware/nics/solarflare/">Solarflare</a></h2>
+        <h2 class="post-title"><a href="/supportedhardware/nics/solarflare/">Solarflare</a></h2>
     </header>
     <section class="post-excerpt">
-        <p> sfc_efx (SFN7xxx, SFN8xxx)   <a class="read-more" href="/dpdk-hugo/supportedhardware/nics/solarflare/">&raquo;</a></p>
+        <p> sfc_efx (SFN7xxx, SFN8xxx)   <a class="read-more" href="/supportedhardware/nics/solarflare/">&raquo;</a></p>
     </section>
     <footer class=" footline" >
          
@@ -409,7 +277,7 @@
 
 <nav class="pagination" role="navigation">
 	
-	    <a class="newer-posts" href="/dpdk-hugo/categories/nics/">&larr; Previous Pages</a>
+	    <a class="newer-posts" href="/categories/nics/">&larr; Previous Pages</a>
 	
 	<span class="page-number">Page 2 of 2</span>
 	
@@ -422,8 +290,7 @@
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/dpdk-hugo/training/" title="Training"> <i class="fa fa-chevron-left"></i><label>Training</label></a>
-    <a class="nav nav-next" href="/dpdk-hugo/performancelab/" title="Performance Lab" style="margin-right: 0px;"><label>Performance Lab</label><i class="fa fa-chevron-right"></i></a></div>
+</div>
   </div>
 
   </section>
@@ -457,14 +324,14 @@
 	</div>
 </footer>
 
-<script src="/dpdk-hugo/js/clipboard.min.js"></script>
+<script src="/js/clipboard.min.js"></script>
 
-<link href="/dpdk-hugo/css/featherlight.min.css" rel="stylesheet">
-<script src="/dpdk-hugo/js/featherlight.min.js"></script>
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
 
 
 
-<script src="/dpdk-hugo/theme-flex/script.js"></script>
+<script src="/theme-flex/script.js"></script>
 
     
 

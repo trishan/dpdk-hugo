@@ -12,6 +12,7 @@ themeVariant = "gray"
 showVisitedLinks = true
 enableGitInfo = true
 disableHomeIcon = true
+disableNavChevron = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]

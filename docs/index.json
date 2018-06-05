@@ -1,370 +1,202 @@
 [
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/linux_gsg/",
-	"title": "Getting Started Guide for Linux",
-	"tags": [],
-	"description": "",
-	"content": "  1. Introduction     2. System Requirements     3. Compiling the DPDK Target from Source     "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/paravirtualization/",
-	"title": "Paravirtualization",
-	"tags": [],
-	"description": "",
-	"content": " avp (Wind River Accelerated Virtual Port) virtio-net (QEMU) vmxnet3 (VMware ESXi) xenvirt (Xen)  "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/performancelab/",
-	"title": "Performance Lab",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/freebsd_gsg/",
-	"title": "Getting Started Guide for FreeBSD",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/other/",
-	"title": "Other Hardware",
-	"tags": [],
-	"description": "",
-	"content": " af_packet (Linux AF_PACKET socket) tap (kernel L2) pcap (file or kernel driver) ring (memory)  "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/attic/",
-	"title": "Attic",
-	"tags": [],
-	"description": "",
-	"content": " memnic (Qemu IVSHMEM) vmxnet3 usermap (VMware ESXi without uio) oce (Emulex OneConnect OCe14000)  "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/",
-	"title": "Documentation",
-	"tags": [],
-	"description": "",
-	"content": " For a first try, you should follow the Quick Start instructions.\n  The list of supported NICs includes PCI NICs and paravirtualized NICs. API documentation is generated thanks to doxygen. The guides are also available as PDF files.  Applications  pktgen-dpdk (traffic generator)  Tools  DTS (DPDK Test Suite) User Guide DTS Test Plans  Archives  Documentation for previous versions Unmaintained driver for QEMU IVSHMEM: memnic-pmd Unmaintained driver for VMware ESXi vmxnet3 without uio: vmxnet3-usermap  "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/sample_app_ug/",
-	"title": "Sample Applications User Guides",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/performancereports/",
-	"title": "Performance Reports",
-	"tags": [],
-	"description": "",
-	"content": " DPDK 18.02 Intel NIC Performance Report DPDK 18.02 Intel Vhost/Virtio Performance Report DPDK 18.02 Intel Crypto Performance Report DPDK 17.11 Intel NIC Performance Report DPDK 17.11 Intel Vhost/Virtio Performance Report DPDK 17.11 Intel Crypto Performance Report DPDK 17.11 Mellanox NIC Performance Report DPDK 17.08 Intel NIC Performance Report DPDK 17.08 Intel Vhost/Virtio Performance Report DPDK 17.05 Intel NIC Performance Report DPDK 17.05 Intel Vhost/Virtio Performance Report DPDK 17.05 Mellanox NIC Performance Report DPDK 17.05 Netcope NIC Performance Report DPDK 17.02 Intel NIC Performance Report DPDK 17.02 Intel Vhost/Virtio Performance Report DPDK 17.02 Mellanox NIC Performance Report DPDK 16.11 Intel NIC Performance Report  "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/prog_guide/",
-	"title": "Programmer&#39;s Guide",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/howto/",
-	"title": "HowTo Guides",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/",
-	"title": "Supported Hardware",
-	"tags": [],
-	"description": "",
-	"content": "Outstanding: filter cards by NICs, Paravirtualization, Others, \u0026amp; Attic; fix links to Docs after creation, format content summaries\nFeatures supported by the drivers can be checked in the networking drivers matrix.\n  Paravirtualization  avp (Wind River Accelerated Virtual Port) virtio-net (QEMU) vmxnet3 (VMware ESXi) xenvirt (Xen)   Other Hardware  af_packet (Linux AF_PACKET socket) tap (kernel L2) pcap (file or kernel driver) ring (memory)   Attic  memnic (Qemu IVSHMEM) vmxnet3 usermap (VMware ESXi without uio) oce (Emulex OneConnect OCe14000)   Amazon \n  Atomic Rules \n  Broadcom \n  Cavium  thunderx (CN88XX, CN83XX, CN81XX, CN80XX) octeontx (CN83XX) liquidio (LiquidIO II CN23XX) bnx2x (QLogic 578xx) qede (QLogic FastLinQ QL4xxxx)   Chelsio  cxgbe (Terminator 5, Terminator 6)   Cisco  enic (UCS Virtual Interface Card)   Intel  e1000 (82540, 82545, 82546) e1000e (82571, 82572, 82573, 82574, 82583, ICH8, ICH9, ICH10, PCH, PCH2, I217, I218, I219) igb (82575, 82576, 82580, I210, I211, I350, I354, DH89xx) ixgbe (82598, 82599, X520, X540, X550) i40e (X710, XL710, X722) fm10k (FM10420) Note: The drivers e1000 and e1000e are also called em. The drivers em and igb are sometimes grouped in e1000 family.   Marvell  mrvl (Marvell Packet Processor v2)   Mellanox  mlx4 (ConnectX-3, ConnectX-3 Pro) mlx5 (ConnectX-4, ConnectX-4 Lx, ConnectX-5)   NXP  dpaa (LS102x, LS1043, LS1046) dpaa2 (LS1048, LS108x, LS20xx, LX216x)   Netcope  szedata2 (NFB-, NPC-, NSF-*)   Netronome  nfp (NFP-4xxx, NFP-6xxx)   Solarflare  sfc_efx (SFN7xxx, SFN8xxx)   "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/tools/",
-	"title": "DPDK Tools User Guides",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/testpmd_app_ug/",
-	"title": "Testpmd Application User Guide",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/training/",
-	"title": "Training",
-	"tags": [],
-	"description": "",
-	"content": " Resources available online:  DPDK Summits Presentation Intel Network Drivers University (Registration is free, but required)  For instructor-led training services, please refer to our Companies list.\n"
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/nics/",
-	"title": "Network Interface Controller Drivers",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/bbdevs/",
-	"title": "Baseband Device Drivers",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/cryptodevs/",
-	"title": "Crypto Device Drivers",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/compressdevs/",
-	"title": "Compression Device Drivers",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/eventdevs/",
-	"title": "Event Device Drivers",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/rawdevs/",
-	"title": "Rawdev Drivers",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/mempool/",
-	"title": "Mempool Device Driver",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/platform/",
-	"title": "Platform Specific Guides",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/contributing/",
-	"title": "Contributor&#39;s Guidelines",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/rel_notes/",
-	"title": "Release Notes",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/doc/guides/faq/",
-	"title": "FAQ",
-	"tags": [],
-	"description": "",
-	"content": "  1. What does “EAL: map_all_hugepages(): open failed: Permission denied Cannot init memory” mean?   This is most likely due to the test application not being run with sudo to promote the user to a superuser. Alternatively, applications can also be run as regular user. For more information, please refer to DPDK Getting Started Guide.\n    2. If I want to change the number of hugepages allocated, how do I remove the original pages allocated?   CONTENT  \n  3. If I execute “l2fwd -l 0-3 -m 64 -n 3 – -p 3”, I get the following output, indicating that there are no socket 0 hugepages to allocate the mbuf and ring structures to?   CONTENT  \n  4. I am running a 32-bit DPDK application on a NUMA system, and sometimes the application initializes fine but cannot allocate memory. Why is that happening?   CONTENT  \n  5. On application startup, there is a lot of EAL information printed. Is there any way to reduce this?   CONTENT  \n  6. How can I tune my network application to achieve lower latency?   CONTENT  \n  7. Without NUMA enabled, my network throughput is low, why?   CONTENT  \n  8. I am getting errors about not being able to open files. Why?   CONTENT  \n  9. VF driver for IXGBE devices cannot be initialized   CONTENT  \n  10. Is it safe to add an entry to the hash table while running?   CONTENT  \n  11. What is the purpose of setting iommu=pt?   CONTENT  \n  12. When trying to send packets from an application to itself, meaning smac==dmac, using Intel(R) 82599 VF packets are lost.   CONTENT  \n  13. Can I split packet RX to use DPDK and have an application’s higher order functions continue using Linux pthread?   CONTENT  \n  14. Is it possible to exchange data between DPDK processes and regular userspace processes via some shared memory or IPC mechanism?   CONTENT  \n  15. Can the multiple queues in Intel(R) I350 be used with DPDK?   CONTENT  \n  16. How can hugepage-backed memory be shared among multiple processes?   CONTENT  \n  17. Why can’t my application receive packets on my system with UEFI Secure Boot enabled?   CONTENT  \n"
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/_footer/",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/_header/",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": "\n"
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": " DPDK is a set of libraries and drivers for fast packet processing DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.\nFeatures:  Designed to run on any processor Runs mostly in Linux userland DPDK is an Open Source BSD licensed project   Download Now  \n"
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/linux_gsg/intro/",
-	"title": "1. Introduction",
-	"tags": [],
-	"description": "",
-	"content": "  1.1 Documentation Roadmap The following is a list of DPDK documents in the suggested reading order: Release Notes: Provides release-specific information, including supported features, limitations, fixed issues, known issues and so on. Also, provides the answers to frequently asked questions in FAQ format. Getting Started Guide (this document): Describes how to install and configure the DPDK; designed to get users up and running quickly with the software. Programmer’s Guide: Describes:\n  "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/linux_gsg/intro/doc_roadmap/",
-	"title": "1.1 Documentation Roadmap",
-	"tags": [],
-	"description": "",
-	"content": "The following is a list of DPDK documents in the suggested reading order:\n Release Notes: Provides release-specific information, including supported features, limitations, fixed issues, known issues and so on. Also, provides the answers to frequently asked questions in FAQ format.\n Getting Started Guide (this document): Describes how to install and configure the DPDK; designed to get users up and running quickly with the software.\n Programmer’s Guide: Describes:\n The software architecture and how to use it (through examples), specifically in a Linux application (linuxapp) environment The content of the DPDK, the build system (including the commands that can be used in the root DPDK Makefile to build the development kit and an application) and guidelines for porting an application Optimizations used in the software and those that should be considered for new development A glossary of terms is also provided.  API Reference: Provides detailed information about DPDK functions, data structures and other programming constructs.\n Sample Applications User Guide: Describes a set of sample applications. Each chapter describes a sample application that showcases specific functionality and provides instructions on how to compile, run and use the sample application.\n  "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/linux_gsg/sys_reqs/",
-	"title": "2. System Requirements",
-	"tags": [],
-	"description": "",
-	"content": " 2. System Requirements This chapter describes the packages required to compile the DPDK.\nIf the DPDK is being used on an Intel® Communications Chipset 89xx Series platform, please consult the Intel® Communications Chipset 89xx Series Software for Linux Getting Started Guide.\n 2.1. BIOS Setting Prerequisite on x86 For the majority of platforms, no special BIOS settings are needed to use basic DPDK functionality. However, for additional HPET timer and power management functionality, and high performance of small packets, BIOS setting changes may be needed. Consult the section on Enabling Additional Functionality for more information on the required changes.\nIf UEFI secure boot is enabled, the Linux kernel may disallow the use of UIO on the system. Therefore, devices for use by DPDK should be bound to the vfio-pci kernel module rather than igb_uio or uio_pci_generic. For more details see Binding and Unbinding Network Ports to/from the Kernel Modules.\n 2.2 Compilation of the DPDK Required tools and libraries: The setup commands and installed packages needed on various systems may be different. For details on Linux distributions and the versions tested, please consult the DPDK Release Notes.\n  GNU make. coreutils: cmp, sed, grep, arch, etc. gcc: versions 4.9 or later is recommended for all platforms. On some distributions, some specific compiler flags and linker flags are enabled by default and affect performance (-fstack-protector, for example). Please refer to the documentation of your distribution and to gcc -dumpspecs. libc headers, often packaged as gcc-multilib (glibc-devel.i686 / libc6-dev-i386; glibc-devel.x86_64 / libc6-dev for 64-bit compilation on Intel architecture; glibc-devel.ppc64 for 64 bit IBM Power architecture;) Linux kernel headers or sources required to build kernel modules. (kernel - devel.x86_64; kernel - devel.ppc64) Additional packages required for 32-bit compilation on 64-bit systems are:  glibc.i686, libgcc.i686, libstdc++.i686 and glibc-devel.i686 for Intel i686/x86_64; glibc.ppc64, libgcc.ppc64, libstdc++.ppc64 and glibc-devel.ppc64 for IBM ppc_64;   x86_x32 ABI is currently supported with distribution packages only on Ubuntu higher than 13.10 or recent Debian distribution. The only supported compiler is gcc 4.9+.\n - libnuma-devel - library for handling NUMA (Non Uniform Memory Access). - Python, version 2.7+ or 3.2+, to use various helper scripts included in the DPDK package.\nOptional Tools:\n Intel® C++ Compiler (icc). For installation, additional libraries may be required. See the icc Installation Guide found in the Documentation directory under the compiler installation. IBM® Advance ToolChain for Powerlinux. This is a set of open source development tools and runtime libraries which allows users to take leading edge advantage of IBM’s latest POWER hardware features on Linux. To install it, see the IBM official installation document. libpcap headers and libraries (libpcap-devel) to compile and use the libpcap-based poll-mode driver. This driver is disabled by default and can be enabled by setting CONFIG_RTE_LIBRTE_PMD_PCAP=y in the build time config file. libarchive headers and library are needed for some unit tests using tar to get their resources.  2.3 Running DPDK Applications To run an DPDK application, some customization may be required on the target machine.\n2.3.1 System Software Required:\n Kernel version \u0026gt;= 3.2  The kernel version required is based on the oldest long term stable kernel available at kernel.org when the DPDK version is in development.\nThe kernel version in use can be checked using the command:\nuname -r   glibc \u0026gt;= 2.7 (for features related to cpuset)  The version can be checked using the ldd --version command.\n Kernel configuration  In the Fedora OS and other common distributions, such as Ubuntu, or Red Hat Enterprise Linux, the vendor supplied kernel configurations can be used to run most DPDK applications.\nFor other kernel builds, options which should be enabled for DPDK include:\n HUGETLBFS PROC_PAGE_MONITOR support HPET and HPET_MMAP configuration options should also be enabled if HPET support is required. See the section on High Precision Event Timer (HPET) Functionality for more details.  2.3.2. Use of Hugepages in the Linux Environment Hugepage support is required for the large memory pool allocation used for packet buffers (the HUGETLBFS option must be enabled in the running kernel as indicated the previous section). By using hugepage allocations, performance is increased since fewer pages are needed, and therefore less Translation Lookaside Buffers (TLBs, high speed translation caches), which reduce the time it takes to translate a virtual page address to a physical page address. Without hugepages, high TLB miss rates would occur with the standard 4k page size, slowing performance.\n2.3.2.1. Reserving Hugepages for DPDK Use The allocation of hugepages should be done at boot time or as soon as possible after system boot to prevent memory from being fragmented in physical memory. To reserve hugepages at boot time, a parameter is passed to the Linux kernel on the kernel command line.\nFor 2 MB pages, just pass the hugepages option to the kernel. For example, to reserve 1024 pages of 2 MB, use:\nhugepages=1024  For other hugepage sizes, for example 1G pages, the size must be specified explicitly and can also be optionally set as the default hugepage size for the system. For example, to reserve 4G of hugepage memory in the form of four 1G pages, the following options should be passed to the kernel:\ndefault_hugepagesz=1G hugepagesz=1G hugepages=4  The hugepage sizes that a CPU supports can be determined from the CPU flags on Intel architecture. If pse exists, 2M hugepages are supported; if pdpe1gb exists, 1G hugepages are supported. On IBM Power architecture, the supported hugepage sizes are 16MB and 16GB.\n For 64-bit applications, it is recommended to use 1 GB hugepages if the platform supports them.\n In the case of a dual-socket NUMA system, the number of hugepages reserved at boot time is generally divided equally between the two sockets (on the assumption that sufficient memory is present on both sockets).\nSee the Documentation/kernel-parameters.txt file in your Linux source tree for further details of these and other kernel options.\n__ Alternative: __\nFor 2 MB pages, there is also the option of allocating hugepages after the system has booted. This is done by echoing the number of hugepages required to a nr_hugepages file in the /sys/devices/ directory. For a single-node system, the command to use is as follows (assuming that 1024 pages are required):\necho 1024 \u0026gt; /sys/kernel/mm/hugepages/hugepages-2048kB/nr_hugepages  On a NUMA machine, pages should be allocated explicitly on separate nodes:\necho 1024 \u0026gt; /sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages echo 1024 \u0026gt; /sys/devices/system/node/node1/hugepages/hugepages-2048kB/nr_hugepages  For 1G pages, it is not possible to reserve the hugepage memory after the system has booted.\nOn IBM POWER system, the nr_overcommit_hugepages should be set to the same value as nr_hugepages. For example, if the required page number is 128, the following commands are used:\necho 128 \u0026gt; /sys/kernel/mm/hugepages/hugepages-16384kB/nr_hugepages echo 128 \u0026gt; /sys/kernel/mm/hugepages/hugepages-16384kB/nr_overcommit_hugepages   2.3.2.2. Using Hugepages with the DPDK Once the hugepage memory is reserved, to make the memory available for DPDK use, perform the following steps:\nmkdir /mnt/huge mount -t hugetlbfs nodev /mnt/huge  The mount point can be made permanent across reboots, by adding the following line to the /etc/fstab file:\nnodev /mnt/huge hugetlbfs defaults 0 0  For 1GB pages, the page size must be specified as a mount option:\nnodev /mnt/huge_1GB hugetlbfs pagesize=1GB 0 0  "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/linux_gsg/build_dpdk/",
-	"title": "3. Compiling the DPDK Target from Source",
-	"tags": [],
-	"description": "",
-	"content": " Parts of this process can also be done using the setup script described in the Quick Start Setup Script section of this document.\n 3.1 Install the DPDK and Browse Sources First, uncompress the archive and move to the uncompressed DPDK source directory:\ntar xJf dpdk-\u0026lt;version\u0026gt;.tar.xz cd dpdk-\u0026lt;version\u0026gt;  The DPDK is composed of several directories:\n lib: Source code of DPDK libraries drivers: Source code of DPDK poll-mode drivers app: Source code of DPDK applications (automatic tests) examples: Source code of DPDK application examples config, buildtools, mk: Framework-related makefiles, scripts and configuration  3.2. Installation of DPDK Target Environments The format of a DPDK target is:\nARCH-MACHINE-EXECENV-TOOLCHAIN  where:\n ARCH can be: i686, x86_64, ppc_64, arm64 MACHINE can be: native, power8, armv8a EXECENV can be: linuxapp, bsdapp TOOLCHAIN can be: gcc, icc  The targets to be installed depend on the 32-bit and/or 64-bit packages and compilers installed on the host. Available targets can be found in the DPDK/config directory. The defconfig_ prefix should not be used.\nConfiguration files are provided with the RTE_MACHINE optimization level set. Within the configuration files, the RTE_MACHINE configuration value is set to native, which means that the compiled software is tuned for the platform on which it is built. For more information on this setting, and its possible values, see the DPDK Programmers Guide.\n When using the Intel® C++ Compiler (icc), one of the following commands should be invoked for 64-bit or 32-bit use respectively. Notice that the shell scripts update the $PATH variable and therefore should not be performed in the same session. Also, verify the compiler’s installation directory since the path may be different:\nsource /opt/intel/bin/iccvars.sh intel64 source /opt/intel/bin/iccvars.sh ia32  To install and make targets, use the make install T=\u0026lt;target\u0026gt; command in the top-level DPDK directory.\nFor example, to compile a 64-bit target using icc, run:\nmake install T=x86_64-native-linuxapp-icc  To compile a 32-bit build using gcc, the make command should be:\nmake install T=i686-native-linuxapp-gcc  To prepare a target without building it, for example, if the configuration changes need to be made before compilation, use the make config T=\u0026lt;target\u0026gt; command:\nmake config T=x86_64-native-linuxapp-gcc  Any kernel modules to be used, e.g. igb_uio, kni, must be compiled with the same kernel as the one running on the target. If the DPDK is not being built on the target machine, the RTE_KERNELDIR environment variable should be used to point the compilation at a copy of the kernel version to be used on the target machine.\n Once the target environment is created, the user may move to the target environment directory and continue to make code changes and re-compile. The user may also make modifications to the compile-time DPDK configuration by editing the .config file in the build directory. (This is a build-local copy of the defconfig file from the top- level config directory).\ncd x86_64-native-linuxapp-gcc vi .config make  In addition, the make clean command can be used to remove any existing compiled files for a subsequent full, clean rebuild of the code.\n3.3. Browsing the Installed DPDK Environment Target Once a target is created it contains all libraries, including poll-mode drivers, and header files for the DPDK environment that are required to build customer applications. In addition, the test and testpmd applications are built under the build/app directory, which may be used for testing. A kmod directory is also present that contains kernel modules which may be loaded if needed.\n"
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/amazon/",
+	"uri": "/supportedhardware/nics/amazon/",
 	"title": "Amazon",
 	"tags": [],
 	"description": "",
 	"content": " ena (Elastic Network Adapter)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/atomicrules/",
+	"uri": "/performancelab/",
+	"title": "Performance Lab",
+	"tags": [],
+	"description": "",
+	"content": " What it\u0026rsquo;s for  Automated performance regression testing of new patches.  When a new patch is received, automatically test and determine if it degrades performance on one or more architectures. Provides input to Maintainers on whether to accept patches or request re-work.  Scope may expand in future: test DPDK-enabled SW apps, uselab for demos, etc.  "
+},
+{
+	"uri": "/supportedhardware/nics/atomicrules/",
 	"title": "Atomic Rules",
 	"tags": [],
 	"description": "",
 	"content": " ark (Arkville Packet Conduit FX0/FX1)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/broadcom/",
+	"uri": "/supportedhardware/nics/broadcom/",
 	"title": "Broadcom",
 	"tags": [],
 	"description": "",
 	"content": " bnxt (NetXtreme-C, NetXtreme-E, StrataGX)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/categories/",
-	"title": "Categories",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cavium/",
+	"uri": "/supportedhardware/nics/cavium/",
 	"title": "Cavium",
 	"tags": [],
 	"description": "",
 	"content": " thunderx (CN88XX, CN83XX, CN81XX, CN80XX) octeontx (CN83XX) liquidio (LiquidIO II CN23XX) bnx2x (QLogic 578xx) qede (QLogic FastLinQ QL4xxxx)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/chelsio/",
+	"uri": "/performancereports/",
+	"title": "Performance Reports",
+	"tags": [],
+	"description": "",
+	"content": " DPDK 18.02 Intel NIC Performance Report DPDK 18.02 Intel Vhost/Virtio Performance Report DPDK 18.02 Intel Crypto Performance Report DPDK 17.11 Intel NIC Performance Report DPDK 17.11 Intel Vhost/Virtio Performance Report DPDK 17.11 Intel Crypto Performance Report DPDK 17.11 Mellanox NIC Performance Report DPDK 17.08 Intel NIC Performance Report DPDK 17.08 Intel Vhost/Virtio Performance Report DPDK 17.05 Intel NIC Performance Report DPDK 17.05 Intel Vhost/Virtio Performance Report DPDK 17.05 Mellanox NIC Performance Report DPDK 17.05 Netcope NIC Performance Report DPDK 17.02 Intel NIC Performance Report DPDK 17.02 Intel Vhost/Virtio Performance Report DPDK 17.02 Mellanox NIC Performance Report DPDK 16.11 Intel NIC Performance Report  "
+},
+{
+	"uri": "/supportedhardware/nics/chelsio/",
 	"title": "Chelsio",
 	"tags": [],
 	"description": "",
 	"content": " cxgbe (Terminator 5, Terminator 6)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cisco/",
+	"uri": "/supportedhardware/",
+	"title": "Supported Hardware",
+	"tags": [],
+	"description": "",
+	"content": "Features supported by the drivers can be checked in the networking drivers matrix.\n   Amazon  ena (Elastic Network Adapter)   Atomic Rules  ark (Arkville Packet Conduit FX0/FX1)   Broadcom  bnxt (NetXtreme-C, NetXtreme-E, StrataGX)   Cavium  thunderx (CN88XX, CN83XX, CN81XX, CN80XX) octeontx (CN83XX) liquidio (LiquidIO II CN23XX) bnx2x (QLogic 578xx) qede (QLogic FastLinQ QL4xxxx)   Chelsio  cxgbe (Terminator 5, Terminator 6)   Cisco  enic (UCS Virtual Interface Card)   Intel  e1000 (82540, 82545, 82546) e1000e (82571, 82572, 82573, 82574, 82583, ICH8, ICH9, ICH10, PCH, PCH2, I217, I218, I219) igb (82575, 82576, 82580, I210, I211, I350, I354, DH89xx) ixgbe (82598, 82599, X520, X540, X550) i40e (X710, XL710, X722) fm10k (FM10420) Note: The drivers e1000 and e1000e are also called em. The drivers em and igb are sometimes grouped in e1000 family.   Marvell  mrvl (Marvell Packet Processor v2)   Mellanox  mlx4 (ConnectX-3, ConnectX-3 Pro) mlx5 (ConnectX-4, ConnectX-4 Lx, ConnectX-5)   Netcope  szedata2 (NFB-, NPC-, NSF-*)   Netronome  nfp (NFP-4xxx, NFP-6xxx)   NXP  dpaa (LS102x, LS1043, LS1046) dpaa2 (LS1048, LS108x, LS20xx, LX216x)   Solarflare  sfc_efx (SFN7xxx, SFN8xxx)   Paravirtualization  avp (Wind River Accelerated Virtual Port) virtio-net (QEMU) vmxnet3 (VMware ESXi)   Other Hardware  af_packet (Linux AF_PACKET socket) tap (kernel L2) pcap (file or kernel driver) ring (memory)   Attic  memnic (Qemu IVSHMEM) vmxnet3 usermap (VMware ESXi without uio)   "
+},
+{
+	"uri": "/supportedhardware/nics/cisco/",
 	"title": "Cisco",
 	"tags": [],
 	"description": "",
 	"content": " enic (UCS Virtual Interface Card)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/developmentroadmap/",
-	"title": "Development Roadmap",
-	"tags": [],
-	"description": "",
-	"content": " Major known features and milestones may be noted here. This list is obviously neither complete nor guaranteed.\n Version 18.05 (2018 May)  memory subsystem rework uevent support for hotplug new device specification (devargs) syntax secondary process support in virtual devices ethdev API for recommended descriptor ring sizes ethdev API to manage tunnel endpoints ethdev Rx/Tx offloads for various tunnels ethdev switch offloads ethdev port representor i40e PPPoE/PPPoL2Tv2 mlx5 striding RQ (multi packets buffer) mlx5 tunnels offloads extended vhost interrupt mode selective datapath in vhost-user library new Intel driver (IFC VF) for accelerated virtio virtio-user for virtio-crypto tap TSO bonding support of flow API new API for hardware and software compression/decompression eventdev ordered and atomic queues for DPAA2 eventdev crypto adapter eventdev timer adapter IP pipeline enhancements libedit integration  Nice to have - Future  multi-process rework automatic UIO/VFIO binding infiniband driver class (ibdev) BPF support default configuration from files generic white/blacklisting  Cycle model A typical release should be done after 3 months.\nIt is designed to allow DPDK to keep evolving at a rapid pace while giving enough opportunity to review, discuss and improve the contributions.\nThe merge window will open once the previous release is complete. First version of a new feature must be submitted before the proposal deadline. Features that miss this first period will be deferred until the next release.\nUpdated versions of patches (v2, v3, etc.) will be submitted to address comments. The new features must be properly reviewed, tested and accepted before the integration deadline. Otherwise, they will be postponed to the next releases.\nAt the end of the merge window, the first release candidate is out.\nThe last period is 1 month long and is dedicated to bug fixing.\nScheduling 18.05  Proposal deadline: March 9, 2018 Integration deadline: April 6, 2018 Release: May 23, 2018  18.08  Proposal deadline: June 8, 2018 Integration deadline: June 29, 2018 Release: August 1, 2018  18.11 (LTS)  Proposal deadline: September 7, 2018 Integration deadline: October 5, 2018 Release: November 2, 2018  Stable Releases There is a documentation page describing the guidelines of the stable releases.\nStable point releases follow mainline releases.\nAfter each -rc tag and after the final version, relevant bug fixes get backported by the stable maintainers into the respective branches in \u0026ldquo;bursts\u0026rdquo;.\nDevelopers can provide stable-specific patches by sending them to stable@dpdk.org only (avoiding dev@dpdk.org).\nAfter all the relevant bugfixes have been backported, regression tests are ran, and if clear, the stable release is announced.\nTypically a new stable release version follows a mainline release by 1-2 weeks, depending on the test results.\n   Next version Date End of life Maintainer     16.11.7 June 8, 2018 November 2018 (LTS) Luca Boccassi   17.11.3 June 8, 2018 November 2019 (LTS) Yuanhan Liu   18.02.2 June 8, 2018 June 2018 Luca Boccassi   18.05.1 August 24, 2018 August 2018 Christian Ehrhardt   18.08.1 November 16, 2018 November 2018 Looking for volunteer   18.11.1 January 11, 2019 November 2020 (LTS) Kevin Traynor    "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/download/",
-	"title": "Download",
-	"tags": [],
-	"description": "",
-	"content": "  Latest Major 18.02.1   Latest Stable 17.11.2 (LTS)   Other Versions LTS and Older   Quick Start Guide  Applications  pktgen-dpdk (traffic generator)  Tools  dts (test suite)]  Unmaintained Extensions  memnic - latest: 1.3 vmxnet3-usermap - latest: 1.2  "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/guides/",
-	"title": "Guides",
-	"tags": [],
-	"description": "",
-	"content": "  Getting Started Guide for Linux   Getting Started Guide for FreeBSD   Sample Applications User Guides   Programmer\u0026#39;s Guide   HowTo Guides   DPDK Tools User Guides   Testpmd Application User Guide   Network Interface Controller Drivers   Baseband Device Drivers   Crypto Device Drivers   Compression Device Drivers   Event Device Drivers   Rawdev Drivers   Mempool Device Driver   Platform Specific Guides   Contributor\u0026#39;s Guidelines   Release Notes   FAQ   "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/intel/",
+	"uri": "/supportedhardware/nics/intel/",
 	"title": "Intel",
 	"tags": [],
 	"description": "",
 	"content": " e1000 (82540, 82545, 82546) e1000e (82571, 82572, 82573, 82574, 82583, ICH8, ICH9, ICH10, PCH, PCH2, I217, I218, I219) igb (82575, 82576, 82580, I210, I211, I350, I354, DH89xx) ixgbe (82598, 82599, X520, X540, X550) i40e (X710, XL710, X722) fm10k (FM10420)  Note: The drivers e1000 and e1000e are also called em. The drivers em and igb are sometimes grouped in e1000 family.\n "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/marvell/",
+	"uri": "/training/",
+	"title": "Training",
+	"tags": [],
+	"description": "",
+	"content": " Resources available online:  DPDK Summits Presentation Intel Network Drivers University (Registration is free, but required)  For instructor-led training services, please refer to our Companies list.\n"
+},
+{
+	"uri": "/supportedhardware/nics/marvell/",
 	"title": "Marvell",
 	"tags": [],
 	"description": "",
 	"content": " mrvl (Marvell Packet Processor v2)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/mellanox/",
+	"uri": "/supportedhardware/nics/mellanox/",
 	"title": "Mellanox",
 	"tags": [],
 	"description": "",
 	"content": " mlx4 (ConnectX-3, ConnectX-3 Pro) mlx5 (ConnectX-4, ConnectX-4 Lx, ConnectX-5)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/nxp/",
-	"title": "NXP",
-	"tags": [],
-	"description": "",
-	"content": " dpaa (LS102x, LS1043, LS1046) dpaa2 (LS1048, LS108x, LS20xx, LX216x)  "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netcope/",
+	"uri": "/supportedhardware/nics/netcope/",
 	"title": "Netcope",
 	"tags": [],
 	"description": "",
 	"content": " szedata2 (NFB-, NPC-, NSF-*)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netronome/",
+	"uri": "/supportedhardware/nics/netronome/",
 	"title": "Netronome",
 	"tags": [],
 	"description": "",
 	"content": " nfp (NFP-4xxx, NFP-6xxx)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/categories/nics/",
-	"title": "Nics",
+	"uri": "/supportedhardware/nics/nxp/",
+	"title": "NXP",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": " dpaa (LS102x, LS1043, LS1046) dpaa2 (LS1048, LS108x, LS20xx, LX216x)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/quickstart/",
-	"title": "Quick Start Guide",
-	"tags": [],
-	"description": "",
-	"content": "A simple forwarding test with pcap PMD which works with any NIC (with performance penalties) Extract sources\ntar xf dpdk.tar.gz cd dpdk  Enable pcap (libpcap headers are required).\nmake config T=x86_64-native-linuxapp-gcc sed -ri 's,(PMD_PCAP=).*,\\1y,' build/.config  Build libraries and test application (Linux headers may be needed with default config).\nmake  Reserve huge pages memory\nmkdir -p /mnt/huge mount -t hugetlbfs nodev /mnt/huge echo 64 \u0026gt; /sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages  Run poll-mode driver test (with a cable between ports).\nbuild/app/testpmd -c7 -n3 --vdev=net_pcap0,iface=eth0 --vdev=net_pcap1,iface=eth1 -- -i --nb-cores=2 --nb-ports=2 --total-num-mbufs=2048 testpmd\u0026gt; show port stats all ######################## NIC statistics for port 0 ######################## RX-packets: 0 RX-errors: 0 RX-bytes: 0 TX-packets: 0 TX-errors: 0 TX-bytes: 0 ############################################################################ ######################## NIC statistics for port 1 ######################## RX-packets: 0 RX-errors: 0 RX-bytes: 0 TX-packets: 0 TX-errors: 0 TX-bytes: 0 ############################################################################ testpmd\u0026gt; start tx_first testpmd\u0026gt; stop ---------------------- Forward statistics for port 0 ---------------------- RX-packets: 2377688 RX-dropped: 0 RX-total: 2377688 TX-packets: 2007009 TX-dropped: 0 TX-total: 2007009 ---------------------------------------------------------------------------- ---------------------- Forward statistics for port 1 ---------------------- RX-packets: 2006977 RX-dropped: 0 RX-total: 2006977 TX-packets: 2377720 TX-dropped: 0 TX-total: 2377720 ---------------------------------------------------------------------------- +++++++++++++++ Accumulated forward statistics for all ports+++++++++++++++ RX-packets: 4384665 RX-dropped: 0 RX-total: 4384665 TX-packets: 4384729 TX-dropped: 0 TX-total: 4384729 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  Some sample applications can be tested after building them.\nmake -C examples RTE_SDK=$(pwd) RTE_TARGET=build O=$(pwd)/build/examples  "
-},
-{
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/solarflare/",
+	"uri": "/supportedhardware/nics/solarflare/",
 	"title": "Solarflare",
 	"tags": [],
 	"description": "",
 	"content": " sfc_efx (SFN7xxx, SFN8xxx)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/tags/",
+	"uri": "/supportedhardware/paravirtualization/",
+	"title": "Paravirtualization",
+	"tags": [],
+	"description": "",
+	"content": " avp (Wind River Accelerated Virtual Port) virtio-net (QEMU) vmxnet3 (VMware ESXi)  "
+},
+{
+	"uri": "/supportedhardware/other/",
+	"title": "Other Hardware",
+	"tags": [],
+	"description": "",
+	"content": " af_packet (Linux AF_PACKET socket) tap (kernel L2) pcap (file or kernel driver) ring (memory)  "
+},
+{
+	"uri": "/supportedhardware/attic/",
+	"title": "Attic",
+	"tags": [],
+	"description": "",
+	"content": " memnic (Qemu IVSHMEM) vmxnet3 usermap (VMware ESXi without uio)  "
+},
+{
+	"uri": "/_footer/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/_header/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "\n"
+},
+{
+	"uri": "/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": " DPDK is a set of libraries and drivers for fast packet processing DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.  Features:  Designed to run on any processor Runs mostly in Linux userland DPDK is an Open Source BSD licensed project   Download Now  \nSample Architecture mermaid.initialize({startOnLoad:true}); graph LR; A[Hard edge] --|Link| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]  "
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/developmentroadmap/",
+	"title": "Development Roadmap",
+	"tags": [],
+	"description": "",
+	"content": " Major known features and milestones may be noted here. This list is obviously neither complete nor guaranteed.\n Version 18.05 (2018 May)  memory subsystem rework uevent support for hotplug new device specification (devargs) syntax secondary process support in virtual devices ethdev API for recommended descriptor ring sizes ethdev API to manage tunnel endpoints ethdev Rx/Tx offloads for various tunnels ethdev switch offloads ethdev port representor i40e PPPoE/PPPoL2Tv2 mlx5 striding RQ (multi packets buffer) mlx5 tunnels offloads extended vhost interrupt mode selective datapath in vhost-user library new Intel driver (IFC VF) for accelerated virtio virtio-user for virtio-crypto tap TSO bonding support of flow API new API for hardware and software compression/decompression eventdev ordered and atomic queues for DPAA2 eventdev crypto adapter eventdev timer adapter IP pipeline enhancements libedit integration  Nice to have - Future  multi-process rework automatic UIO/VFIO binding infiniband driver class (ibdev) BPF support default configuration from files generic white/blacklisting  Cycle model A typical release should be done after 3 months.\nIt is designed to allow DPDK to keep evolving at a rapid pace while giving enough opportunity to review, discuss and improve the contributions.\nThe merge window will open once the previous release is complete. First version of a new feature must be submitted before the proposal deadline. Features that miss this first period will be deferred until the next release.\nUpdated versions of patches (v2, v3, etc.) will be submitted to address comments. The new features must be properly reviewed, tested and accepted before the integration deadline. Otherwise, they will be postponed to the next releases.\nAt the end of the merge window, the first release candidate is out.\nThe last period is 1 month long and is dedicated to bug fixing.\nScheduling 18.05  Proposal deadline: March 9, 2018 Integration deadline: April 6, 2018 Release: May 23, 2018  18.08  Proposal deadline: June 8, 2018 Integration deadline: June 29, 2018 Release: August 1, 2018  18.11 (LTS)  Proposal deadline: September 7, 2018 Integration deadline: October 5, 2018 Release: November 2, 2018  Stable Releases There is a documentation page describing the guidelines of the stable releases.\nStable point releases follow mainline releases.\nAfter each -rc tag and after the final version, relevant bug fixes get backported by the stable maintainers into the respective branches in \u0026ldquo;bursts\u0026rdquo;.\nDevelopers can provide stable-specific patches by sending them to stable@dpdk.org only (avoiding dev@dpdk.org).\nAfter all the relevant bugfixes have been backported, regression tests are ran, and if clear, the stable release is announced.\nTypically a new stable release version follows a mainline release by 1-2 weeks, depending on the test results.\n   Next version Date End of life Maintainer     16.11.7 June 8, 2018 November 2018 (LTS) Luca Boccassi   17.11.3 June 8, 2018 November 2019 (LTS) Yuanhan Liu   18.02.2 June 8, 2018 June 2018 Luca Boccassi   18.05.1 August 24, 2018 August 2018 Christian Ehrhardt   18.08.1 November 16, 2018 November 2018 Looking for volunteer   18.11.1 January 11, 2019 November 2020 (LTS) Kevin Traynor    "
+},
+{
+	"uri": "/documentation/",
+	"title": "Documentation",
+	"tags": [],
+	"description": "",
+	"content": " For a first try, you should follow the quick start instructions.\n  See the list of supported NICs, which includes PCI NICs and paravirtualized NICs.\n API documentation is generated thanks to doxygen.\n  Quick Links to Documentation  User Guides  Programmer's Guide  Release Notes  Documentation is also available in PDF format. \nApplications  pktgen-dpdk (traffic generator)  Tools  DTS (DPDK Test Suite) User Guide DTS Test Plans  Archives  Documentation for previous versions Unmaintained driver for QEMU IVSHMEM: memnic-pmd. Unmaintained driver for VMware ESXi vmxnet3 without uio: vmxnet3-usermap.  "
+},
+{
+	"uri": "/download/",
+	"title": "Download",
+	"tags": [],
+	"description": "",
+	"content": "    Latest Major 18.02.1  Latest Stable 17.11.2 (LTS)  Other Versions LTS and Older  Quick Start Guide   Applications  pktgen-dpdk (traffic generator)  Tools  dts (test suite)]  Unmaintained Extensions  memnic - latest: 1.3 vmxnet3-usermap - latest: 1.2  "
+},
+{
+	"uri": "/categories/nics/",
+	"title": "Nics",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

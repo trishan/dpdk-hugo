@@ -110,6 +110,7 @@ nav.shortcuts li a:hover:after {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 1% 2%;
+  margin: 1%;
 }
 
 .btn-primary {
