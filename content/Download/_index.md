@@ -9,7 +9,7 @@ weight = "5"
     <a class="dwnld-btn" href="https://fast.dpdk.org/rel/dpdk-18.02.1.tar.xz"><span>{{< icon name="glyphicon glyphicon-download-alt" size="large" >}}</span> Latest Major 18.02.1</a>
     <a class="dwnld-btn" href="https://fast.dpdk.org/rel/dpdk-17.11.2.tar.xz">{{< icon name="glyphicon glyphicon-download-alt" size="large" >}} Latest Stable 17.11.2 (LTS)</a>
     <a class="dwnld-btn" href="http://www.dpdk.org/rel">{{< icon name="glyphicon glyphicon-th-list" size="large" >}} Other Versions LTS and Older</a>
-    <a class="dwnld-btn" href="/documentation/quickstart/">{{< icon name="glyphicon glyphicon-info-sign" size="large" >}} Quick Start Guide</a>
+    <a class="dwnld-btn" href="/dpdk-hugo/quick-start/">{{< icon name="glyphicon glyphicon-info-sign" size="large" >}} Quick Start Guide</a>
   </div>
 </section>
 

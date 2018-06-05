@@ -173,5 +173,18 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Quick Start Guide</title>
+      <link>https://jeskaduman.github.io/dpdk-hugo/quick-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeskaduman.github.io/dpdk-hugo/quick-start/</guid>
+      <description>A simple forwarding test with pcap PMD which works with any NIC (with performance penalties) Extract sources
+ tar xf dpdk.tar.gz cd dpdk  Enable pcap (libpcap headers are required).
+ make config T=x86_64-native-linuxapp-gcc sed -ri &#39;s,(PMD_PCAP=).*,\1y,&#39; build/.config  Build libraries and test application (Linux headers may be needed with default config).
+ make  Reserve huge pages memory.
+ mkdir -p /mnt/huge mount -t hugetlbfs nodev /mnt/huge echo 64 &amp;gt; /sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages  Run poll-mode driver test (with a cable between ports).</description>
+    </item>
+    
   </channel>
 </rss>

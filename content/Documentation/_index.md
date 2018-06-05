@@ -4,7 +4,7 @@ weight = "2"
 +++
 
 {{% notice info %}}
-For a first try, you should follow the [quick start instructions](/quick-start).
+For a first try, you should follow the [quick start instructions](/dpdk-hugo/quick-start).
 {{% /notice %}}
 
 - See the [list of supported NICs](http://dpdk.org/doc/nics), which includes PCI NICs and paravirtualized NICs.
