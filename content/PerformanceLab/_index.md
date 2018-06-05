@@ -11,4 +11,4 @@ weight = 1
   - Provides input to Maintainers on whether to accept patches or request re-work.
 - Scope may expand in future: test DPDK-enabled SW apps, uselab for demos, etc.
 
-![DPDK - Performance Lab](/img/performance-lab-diagram.png)
+![DPDK - Performance Lab]({{ .Site.BaseURL }}/img/performance-lab-diagram.png)
