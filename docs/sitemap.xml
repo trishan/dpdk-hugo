@@ -23,10 +23,6 @@
   </url>
   
   <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/performancereports/</loc>
-  </url>
-  
-  <url>
     <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/chelsio/</loc>
   </url>
   
@@ -114,6 +110,10 @@
   <url>
     <loc>https://jeskaduman.github.io/dpdk-hugo/categories/nics/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/performancereports/</loc>
   </url>
   
   <url>
