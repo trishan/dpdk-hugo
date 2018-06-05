@@ -35,13 +35,6 @@
 	"content": " thunderx (CN88XX, CN83XX, CN81XX, CN80XX) octeontx (CN83XX) liquidio (LiquidIO II CN23XX) bnx2x (QLogic 578xx) qede (QLogic FastLinQ QL4xxxx)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/performancereports/",
-	"title": "Performance Reports",
-	"tags": [],
-	"description": "",
-	"content": "This is a test\n"
-},
-{
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/chelsio/",
 	"title": "Chelsio",
 	"tags": [],
@@ -158,7 +151,7 @@
 	"title": "",
 	"tags": [],
 	"description": "",
-	"content": " DPDK is a set of libraries and drivers for fast packet processing DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.  Features:  Designed to run on any processor Runs mostly in Linux userland DPDK is an Open Source BSD licensed project   Download Now  \nSample Architecture mermaid.initialize({startOnLoad:true}); graph LR; A[Hard edge] --|Link| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]  "
+	"content": " A test!\nDPDK is a set of libraries and drivers for fast packet processing DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.  Features:  Designed to run on any processor Runs mostly in Linux userland DPDK is an Open Source BSD licensed project   Download Now  \nSample Architecture mermaid.initialize({startOnLoad:true}); graph LR; A[Hard edge] --|Link| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]  "
 },
 {
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/categories/",
