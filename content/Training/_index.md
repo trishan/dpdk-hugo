@@ -1,6 +1,6 @@
 +++
 title = "Training"
-weight = 7
+weight = "6"
 +++
 
 ##### Resources available online:

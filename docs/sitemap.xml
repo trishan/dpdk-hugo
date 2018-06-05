@@ -15,11 +15,11 @@
   </url>
   
   <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/broadcom/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/</loc>
   </url>
   
   <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cavium/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/broadcom/</loc>
   </url>
   
   <url>
@@ -27,7 +27,7 @@
   </url>
   
   <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/chelsio/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cavium/</loc>
   </url>
   
   <url>
@@ -35,15 +35,23 @@
   </url>
   
   <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/chelsio/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/download/</loc>
+  </url>
+  
+  <url>
     <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cisco/</loc>
   </url>
   
   <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/intel/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/training/</loc>
   </url>
   
   <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/training/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/intel/</loc>
   </url>
   
   <url>
@@ -101,14 +109,6 @@
   
   <url>
     <loc>https://jeskaduman.github.io/dpdk-hugo/developmentroadmap/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/download/</loc>
   </url>
   
   <url>

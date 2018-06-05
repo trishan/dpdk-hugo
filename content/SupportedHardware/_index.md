@@ -1,7 +1,7 @@
 +++
 title = "Supported Hardware"
 url = "/hardware/"
-weight = 5
+weight = "4"
 +++
 
 {{% notice info %}}

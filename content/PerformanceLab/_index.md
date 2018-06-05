@@ -1,6 +1,6 @@
 +++
 title = "Performance Lab"
-weight = 1
+weight = "1"
 +++
 
 ## What it's for

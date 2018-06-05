@@ -1,6 +1,7 @@
 +++
 title = "Download"
 url = "/download"
+weight = "5"
 +++
 
 <section class="download-container">
