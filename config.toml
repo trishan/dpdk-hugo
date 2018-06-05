@@ -1,5 +1,4 @@
 baseURL = "https://jeskaduman.github.io/dpdk-hugo/"
-canonifyURLs = true
 languageCode = "en-us"
 
 title = "DPDK"
