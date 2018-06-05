@@ -1,6 +1,5 @@
 +++
-title = "Performance Reports 2"
-url = "/performancereports2"
+title = "Performance Reports"
 weight = "3"
 +++
 

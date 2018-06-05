@@ -36,7 +36,7 @@
 },
 {
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/performancereports/",
-	"title": "Performance Reports 2",
+	"title": "Performance Reports",
 	"tags": [],
 	"description": "",
 	"content": " DPDK 18.02 Intel NIC Performance Report DPDK 18.02 Intel Vhost/Virtio Performance Report DPDK 18.02 Intel Crypto Performance Report DPDK 17.11 Intel NIC Performance Report DPDK 17.11 Intel Vhost/Virtio Performance Report DPDK 17.11 Intel Crypto Performance Report DPDK 17.11 Mellanox NIC Performance Report DPDK 17.08 Intel NIC Performance Report DPDK 17.08 Intel Vhost/Virtio Performance Report DPDK 17.05 Intel NIC Performance Report DPDK 17.05 Intel Vhost/Virtio Performance Report DPDK 17.05 Mellanox NIC Performance Report DPDK 17.05 Netcope NIC Performance Report DPDK 17.02 Intel NIC Performance Report DPDK 17.02 Intel Vhost/Virtio Performance Report DPDK 17.02 Mellanox NIC Performance Report DPDK 16.11 Intel NIC Performance Report  "
