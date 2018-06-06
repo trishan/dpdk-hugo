@@ -2,183 +2,183 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DPDK</title>
-    <link>/</link>
+    <link>https://jeskaduman.github.io/dpdk-hugo/</link>
     <description>Recent content on DPDK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jeskaduman.github.io/dpdk-hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Amazon</title>
-      <link>/supportedhardware/nics/amazon/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/amazon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/amazon/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/amazon/</guid>
       <description> ena (Elastic Network Adapter)  </description>
     </item>
     
     <item>
       <title>Atomic Rules</title>
-      <link>/supportedhardware/nics/atomicrules/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/atomicrules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/atomicrules/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/atomicrules/</guid>
       <description> ark (Arkville Packet Conduit FX0/FX1)  </description>
     </item>
     
     <item>
       <title>Broadcom</title>
-      <link>/supportedhardware/nics/broadcom/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/broadcom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/broadcom/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/broadcom/</guid>
       <description> bnxt (NetXtreme-C, NetXtreme-E, StrataGX)  </description>
     </item>
     
     <item>
       <title>Cavium</title>
-      <link>/supportedhardware/nics/cavium/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cavium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/cavium/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cavium/</guid>
       <description> thunderx (CN88XX, CN83XX, CN81XX, CN80XX) octeontx (CN83XX) liquidio (LiquidIO II CN23XX) bnx2x (QLogic 578xx) qede (QLogic FastLinQ QL4xxxx)  </description>
     </item>
     
     <item>
       <title>Chelsio</title>
-      <link>/supportedhardware/nics/chelsio/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/chelsio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/chelsio/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/chelsio/</guid>
       <description> cxgbe (Terminator 5, Terminator 6)  </description>
     </item>
     
     <item>
       <title>Cisco</title>
-      <link>/supportedhardware/nics/cisco/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cisco/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/cisco/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cisco/</guid>
       <description> enic (UCS Virtual Interface Card)  </description>
     </item>
     
     <item>
       <title>Intel</title>
-      <link>/supportedhardware/nics/intel/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/intel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/intel/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/intel/</guid>
       <description> e1000 (82540, 82545, 82546) e1000e (82571, 82572, 82573, 82574, 82583, ICH8, ICH9, ICH10, PCH, PCH2, I217, I218, I219) igb (82575, 82576, 82580, I210, I211, I350, I354, DH89xx) ixgbe (82598, 82599, X520, X540, X550) i40e (X710, XL710, X722) fm10k (FM10420)  Note: The drivers e1000 and e1000e are also called em. The drivers em and igb are sometimes grouped in e1000 family.
  </description>
     </item>
     
     <item>
       <title>Marvell</title>
-      <link>/supportedhardware/nics/marvell/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/marvell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/marvell/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/marvell/</guid>
       <description> mrvl (Marvell Packet Processor v2)  </description>
     </item>
     
     <item>
       <title>Mellanox</title>
-      <link>/supportedhardware/nics/mellanox/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/mellanox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/mellanox/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/mellanox/</guid>
       <description> mlx4 (ConnectX-3, ConnectX-3 Pro) mlx5 (ConnectX-4, ConnectX-4 Lx, ConnectX-5)  </description>
     </item>
     
     <item>
       <title>Netcope</title>
-      <link>/supportedhardware/nics/netcope/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netcope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/netcope/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netcope/</guid>
       <description> szedata2 (NFB-, NPC-, NSF-*)  </description>
     </item>
     
     <item>
       <title>Netronome</title>
-      <link>/supportedhardware/nics/netronome/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netronome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/netronome/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netronome/</guid>
       <description> nfp (NFP-4xxx, NFP-6xxx)  </description>
     </item>
     
     <item>
       <title>NXP</title>
-      <link>/supportedhardware/nics/nxp/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/nxp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/nxp/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/nxp/</guid>
       <description> dpaa (LS102x, LS1043, LS1046) dpaa2 (LS1048, LS108x, LS20xx, LX216x)  </description>
     </item>
     
     <item>
       <title>Solarflare</title>
-      <link>/supportedhardware/nics/solarflare/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/solarflare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/nics/solarflare/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/solarflare/</guid>
       <description> sfc_efx (SFN7xxx, SFN8xxx)  </description>
     </item>
     
     <item>
       <title>Paravirtualization</title>
-      <link>/supportedhardware/paravirtualization/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/paravirtualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/paravirtualization/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/paravirtualization/</guid>
       <description> avp (Wind River Accelerated Virtual Port) virtio-net (QEMU) vmxnet3 (VMware ESXi)  </description>
     </item>
     
     <item>
       <title>Other Hardware</title>
-      <link>/supportedhardware/other/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/other/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/other/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/other/</guid>
       <description> af_packet (Linux AF_PACKET socket) tap (kernel L2) pcap (file or kernel driver) ring (memory)  </description>
     </item>
     
     <item>
       <title>Attic</title>
-      <link>/supportedhardware/attic/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/attic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supportedhardware/attic/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/attic/</guid>
       <description> memnic (Qemu IVSHMEM) vmxnet3 usermap (VMware ESXi without uio)  </description>
     </item>
     
     <item>
       <title></title>
-      <link>/_footer/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/_footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/_footer/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/_footer/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/_header/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/_header/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/_header/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/_header/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quick Start Guide</title>
-      <link>/quick-start/</link>
+      <link>https://jeskaduman.github.io/dpdk-hugo/quick-start/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quick-start/</guid>
+      <guid>https://jeskaduman.github.io/dpdk-hugo/quick-start/</guid>
       <description>A simple forwarding test with pcap PMD which works with any NIC (with performance penalties) Extract sources
  tar xf dpdk.tar.gz cd dpdk  Enable pcap (libpcap headers are required).
  make config T=x86_64-native-linuxapp-gcc sed -ri &#39;s,(PMD_PCAP=).*,\1y,&#39; build/.config  Build libraries and test application (Linux headers may be needed with default config).

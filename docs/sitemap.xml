@@ -3,129 +3,129 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/supportedhardware/nics/amazon/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/amazon/</loc>
   </url>
   
   <url>
-    <loc>/performancelab/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/performancelab/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/atomicrules/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/atomicrules/</loc>
   </url>
   
   <url>
-    <loc>/documentation/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/broadcom/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/broadcom/</loc>
   </url>
   
   <url>
-    <loc>/performance_reports/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/performance_reports/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/cavium/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cavium/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/chelsio/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/chelsio/</loc>
   </url>
   
   <url>
-    <loc>/download/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/download/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/cisco/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cisco/</loc>
   </url>
   
   <url>
-    <loc>/training/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/training/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/intel/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/intel/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/marvell/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/marvell/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/mellanox/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/mellanox/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/netcope/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netcope/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/netronome/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/netronome/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/nxp/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/nxp/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/nics/solarflare/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/solarflare/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/paravirtualization/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/paravirtualization/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/other/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/other/</loc>
   </url>
   
   <url>
-    <loc>/supportedhardware/attic/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/attic/</loc>
   </url>
   
   <url>
-    <loc>/_footer/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/_footer/</loc>
   </url>
   
   <url>
-    <loc>/_header/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/_header/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/</loc>
   </url>
   
   <url>
-    <loc>/documentation/archives/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/archives/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/developmentroadmap/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/developmentroadmap/</loc>
   </url>
   
   <url>
-    <loc>/categories/nics/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/categories/nics/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/quick-start/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/quick-start/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/tags/</loc>
     <priority>0</priority>
   </url>
   
