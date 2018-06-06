@@ -1,4 +1,4 @@
-baseURL = "https://jeskaduman.github.io/dpdk-hugo/"
+baseURL = "/"
 languageCode = "en-us"
 
 title = "DPDK"
@@ -14,7 +14,7 @@ enableGitInfo = true
 disableHomeIcon = true
 disableNavChevron = true
 disableSearch = true
-editURL = "https://github.com/jeskaduman/dpdk-hugo/edit/master/docs/content/"
+editURL = "https://github.com/jeskaduman/dpdk-hugo/edit/master/content/"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
