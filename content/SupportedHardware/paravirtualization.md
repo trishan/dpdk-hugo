@@ -1,6 +1,7 @@
 +++
 title = "Paravirtualization"
 weight = "14"
+hidden = "true"
 +++
 
 - [avp](http://dpdk.org/doc/guides/nics/avp.html) (Wind River Accelerated Virtual Port)

@@ -1,6 +1,7 @@
 +++
 title = "Attic"
 weight = "16"
+hidden = "true"
 +++
 
 - [memnic](http://dpdk.org/doc/memnic-pmd) (Qemu IVSHMEM)

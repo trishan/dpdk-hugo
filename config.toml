@@ -13,6 +13,7 @@ showVisitedLinks = true
 enableGitInfo = true
 disableHomeIcon = true
 disableNavChevron = true
+disableSearch = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -26,7 +27,7 @@ weight = 1
 [[menu.shortcuts]]
 name = "<label>Documentation</label>"
 identifier = "docs"
-url = "http://dpdk.org/doc/guides/"
+url = "/documentation"
 weight = 2
 
 [[menu.shortcuts]]

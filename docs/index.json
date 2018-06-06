@@ -25,7 +25,7 @@
 	"title": "Documentation",
 	"tags": [],
 	"description": "",
-	"content": " For a first try, you should follow the quick start instructions.\n  See the list of supported NICs, which includes PCI NICs and paravirtualized NICs.\n API documentation is generated thanks to doxygen.\n  Quick Links to Documentation  User Guides  Programmer's Guide  Release Notes  Documentation is also available in PDF format. \nApplications  pktgen-dpdk (traffic generator)  Tools  DTS (DPDK Test Suite) User Guide DTS Test Plans  Archives  Documentation for previous versions Unmaintained driver for QEMU IVSHMEM: memnic-pmd. Unmaintained driver for VMware ESXi vmxnet3 without uio: vmxnet3-usermap.  "
+	"content": " For a first try, you should follow the quick start instructions.\n  See the list of supported NICs, which includes PCI NICs and paravirtualized NICs.  Quick Links to Documentation  User Guides  Programmer's Guide  Release Notes  API Documentation  Documentation is also available in PDF format. \nArchives\n Documentation for previous versions Unmaintained driver for QEMU IVSHMEM: memnic-pmd. Unmaintained driver for VMware ESXi vmxnet3 without uio: vmxnet3-usermap.    Applications  pktgen-dpdk (traffic generator)  Tools  DTS (DPDK Test Suite) User Guide DTS Test Plans  Archives  Documentation for previous versions Unmaintained driver for QEMU IVSHMEM: memnic-pmd. Unmaintained driver for VMware ESXi vmxnet3 without uio: vmxnet3-usermap.  "
 },
 {
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/broadcom/",
@@ -173,6 +173,13 @@
 	"tags": [],
 	"description": "",
 	"content": " DPDK is a set of libraries and drivers for fast packet processing DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.  Features:  Designed to run on any processor Runs mostly in Linux userland DPDK is an Open Source BSD licensed project   Download Now  \nSample Architecture mermaid.initialize({startOnLoad:true}); graph LR; A[Hard edge] --|Link| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]  "
+},
+{
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/archives/",
+	"title": "Archives",
+	"tags": [],
+	"description": "",
+	"content": " DPDK 18.05 | HTML API | HTML guides | PDF guides DPDK 18.02 | HTML API | HTML guides | PDF guides DPDK 17.11 | HTML API | HTML guides | PDF guides DPDK 17.08 | HTML API | HTML guides | PDF guides DPDK 17.05 | HTML API | HTML guides | PDF guides DPDK 17.02 | HTML API | HTML guides | PDF guides DPDK 16.11 | HTML API | HTML guides | PDF guides DPDK 16.07 | HTML API | HTML guides | PDF guides DPDK 16.04 | HTML API | HTML guides | PDF guides DPDK 2.2 | HTML API | HTML guides | PDF guides DPDK 2.1 | HTML API | HTML guides | PDF guides DPDK 2.0 | HTML API | HTML guides | PDF guides DPDK 1.8 | HTML API | HTML guides DPDK 1.7 | HTML API DPDK 1.6 | HTML API  "
 },
 {
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/categories/",

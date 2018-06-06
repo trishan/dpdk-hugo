@@ -2,6 +2,7 @@
 title = "Other Hardware"
 url = "/supportedhardware/other/"
 weight = "15"
+hidden = "true"
 +++
 
 - [af_packet](http://dpdk.org/browse/dpdk/tree/drivers/net/af_packet) (Linux AF_PACKET socket)

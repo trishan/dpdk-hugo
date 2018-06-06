@@ -7,9 +7,7 @@ weight = "2"
 For a first try, you should follow the [quick start instructions](/dpdk-hugo/quick-start).
 {{% /notice %}}
 
-- See the [list of supported NICs](http://dpdk.org/doc/nics), which includes PCI NICs and paravirtualized NICs.
-
-- API documentation is generated thanks to [doxygen](http://doxygen.org/).
+- See the [list of supported NICs](/dpdk-hugo/supportedhardware), which includes PCI NICs and paravirtualized NICs.
 
 ### Quick Links to Documentation
 ----
@@ -17,12 +15,17 @@ For a first try, you should follow the [quick start instructions](/dpdk-hugo/qui
   {{< button href="http://dpdk.org/doc/guides/" >}} User Guides {{< /button >}}
   {{< button href="http://dpdk.org/doc/guides/prog_guide/" >}} Programmer's Guide {{< /button >}}
   {{< button href="http://dpdk.org/doc/guides/rel_notes/" >}} Release Notes {{< /button >}}
+  {{< button href="http://dpdk.org/doc/api/" >}} API Documentation {{< /button >}}
 
   ***Documentation is also available in [PDF format](http://fast.dpdk.org/doc/pdf-guides/)***.
 </center>
 
+{{% alert theme="warning" %}}__Archives__
 
-
+- [Documentation for previous versions](/dpdk-hugo/documentation/archives/)
+- Unmaintained driver for QEMU IVSHMEM: [memnic-pmd](http://dpdk.org/doc/memnic-pmd).
+- Unmaintained driver for VMware ESXi vmxnet3 without uio: [vmxnet3-usermap](http://dpdk.org/doc/vmxnet3-usermap).
+{{% /alert %}}
 ----
 
 ### Applications
