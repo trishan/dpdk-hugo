@@ -7,7 +7,7 @@
   </url>
   
   <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/performancelab/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/download/</loc>
   </url>
   
   <url>
@@ -15,15 +15,11 @@
   </url>
   
   <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/</loc>
-  </url>
-  
-  <url>
     <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/broadcom/</loc>
   </url>
   
   <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/performance_reports/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/documentation/</loc>
   </url>
   
   <url>
@@ -39,7 +35,7 @@
   </url>
   
   <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/download/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/performance_reports/</loc>
   </url>
   
   <url>
@@ -47,7 +43,7 @@
   </url>
   
   <url>
-    <loc>https://jeskaduman.github.io/dpdk-hugo/training/</loc>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/performancelab/</loc>
   </url>
   
   <url>
@@ -55,7 +51,15 @@
   </url>
   
   <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/technicalboard/</loc>
+  </url>
+  
+  <url>
     <loc>https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/marvell/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeskaduman.github.io/dpdk-hugo/training/</loc>
   </url>
   
   <url>

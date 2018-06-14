@@ -7,11 +7,11 @@
 	"content": " ena (Elastic Network Adapter)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/performancelab/",
-	"title": "Performance Lab",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/download/",
+	"title": "Download",
 	"tags": [],
 	"description": "",
-	"content": " What it\u0026rsquo;s for  Automated performance regression testing of new patches.  When a new patch is received, automatically test and determine if it degrades performance on one or more architectures. Provides input to Maintainers on whether to accept patches or request re-work.  Scope may expand in future: test DPDK-enabled SW apps, uselab for demos, etc.  "
+	"content": "    Latest Major 18.02.1  Latest Stable 17.11.2 (LTS)  LTS and Older  Quick Start Guide   Applications  pktgen-dpdk (traffic generator)  Tools  dts (test suite)]  Unmaintained Extensions  memnic - latest: 1.3 vmxnet3-usermap - latest: 1.2  "
 },
 {
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/atomicrules/",
@@ -21,13 +21,6 @@
 	"content": " ark (Arkville Packet Conduit FX0/FX1)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/",
-	"title": "Documentation",
-	"tags": [],
-	"description": "",
-	"content": " For a first try, you should follow the quick start instructions.\n  See the list of supported NICs, which includes PCI NICs and paravirtualized NICs.  Quick Links to Documentation  User Guides  Programmer's Guide  Release Notes  API Documentation  Documentation is also available in PDF format. \nArchives\n Documentation for previous versions Unmaintained driver for QEMU IVSHMEM: memnic-pmd. Unmaintained driver for VMware ESXi vmxnet3 without uio: vmxnet3-usermap.    Applications  pktgen-dpdk (traffic generator)  Tools  DTS (DPDK Test Suite) User Guide DTS Test Plans  Archives  Documentation for previous versions Unmaintained driver for QEMU IVSHMEM: memnic-pmd. Unmaintained driver for VMware ESXi vmxnet3 without uio: vmxnet3-usermap.  "
-},
-{
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/broadcom/",
 	"title": "Broadcom",
 	"tags": [],
@@ -35,11 +28,11 @@
 	"content": " bnxt (NetXtreme-C, NetXtreme-E, StrataGX)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/performance_reports/",
-	"title": "Performance Reports",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/documentation/",
+	"title": "Documentation",
 	"tags": [],
 	"description": "",
-	"content": " DPDK 18.02 Intel NIC Performance Report DPDK 18.02 Intel Vhost/Virtio Performance Report DPDK 18.02 Intel Crypto Performance Report DPDK 17.11 Intel NIC Performance Report DPDK 17.11 Intel Vhost/Virtio Performance Report DPDK 17.11 Intel Crypto Performance Report DPDK 17.11 Mellanox NIC Performance Report DPDK 17.08 Intel NIC Performance Report DPDK 17.08 Intel Vhost/Virtio Performance Report DPDK 17.05 Intel NIC Performance Report DPDK 17.05 Intel Vhost/Virtio Performance Report DPDK 17.05 Mellanox NIC Performance Report DPDK 17.05 Netcope NIC Performance Report DPDK 17.02 Intel NIC Performance Report DPDK 17.02 Intel Vhost/Virtio Performance Report DPDK 17.02 Mellanox NIC Performance Report DPDK 16.11 Intel NIC Performance Report  "
+	"content": " For a first try, you should follow the quick start instructions.\n  See the list of supported NICs, which includes PCI NICs and paravirtualized NICs.  Quick Links to Documentation  User Guides  Programmer's Guide  Release Notes  API Documentation  Documentation is also available in PDF format. \nArchives\n Documentation for previous versions Unmaintained driver for QEMU IVSHMEM: memnic-pmd. Unmaintained driver for VMware ESXi vmxnet3 without uio: vmxnet3-usermap.    Applications  pktgen-dpdk (traffic generator)  Tools  DTS (DPDK Test Suite) User Guide DTS Test Plans  Archives  Documentation for previous versions Unmaintained driver for QEMU IVSHMEM: memnic-pmd. Unmaintained driver for VMware ESXi vmxnet3 without uio: vmxnet3-usermap.  "
 },
 {
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cavium/",
@@ -63,11 +56,11 @@
 	"content": " cxgbe (Terminator 5, Terminator 6)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/download/",
-	"title": "Download",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/performance_reports/",
+	"title": "Performance Reports",
 	"tags": [],
 	"description": "",
-	"content": "    Latest Major 18.02.1  Latest Stable 17.11.2 (LTS)  Other Versions LTS and Older  Quick Start Guide   Applications  pktgen-dpdk (traffic generator)  Tools  dts (test suite)]  Unmaintained Extensions  memnic - latest: 1.3 vmxnet3-usermap - latest: 1.2  "
+	"content": " DPDK 18.02 Intel NIC Performance Report DPDK 18.02 Intel Vhost/Virtio Performance Report DPDK 18.02 Intel Crypto Performance Report DPDK 17.11 Intel NIC Performance Report DPDK 17.11 Intel Vhost/Virtio Performance Report DPDK 17.11 Intel Crypto Performance Report DPDK 17.11 Mellanox NIC Performance Report DPDK 17.08 Intel NIC Performance Report DPDK 17.08 Intel Vhost/Virtio Performance Report DPDK 17.05 Intel NIC Performance Report DPDK 17.05 Intel Vhost/Virtio Performance Report DPDK 17.05 Mellanox NIC Performance Report DPDK 17.05 Netcope NIC Performance Report DPDK 17.02 Intel NIC Performance Report DPDK 17.02 Intel Vhost/Virtio Performance Report DPDK 17.02 Mellanox NIC Performance Report DPDK 16.11 Intel NIC Performance Report  "
 },
 {
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/cisco/",
@@ -77,11 +70,11 @@
 	"content": " enic (UCS Virtual Interface Card)  "
 },
 {
-	"uri": "https://jeskaduman.github.io/dpdk-hugo/training/",
-	"title": "Training",
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/performancelab/",
+	"title": "Performance Lab",
 	"tags": [],
 	"description": "",
-	"content": " Resources available online:  DPDK Summits Presentation Intel Network Drivers University (Registration is free, but required)  For instructor-led training services, please refer to our Companies list.\n"
+	"content": " What it\u0026rsquo;s for  Automated performance regression testing of new patches.  When a new patch is received, automatically test and determine if it degrades performance on one or more architectures. Provides input to Maintainers on whether to accept patches or request re-work.  Scope may expand in future: test DPDK-enabled SW apps, uselab for demos, etc.  "
 },
 {
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/intel/",
@@ -91,11 +84,25 @@
 	"content": " e1000 (82540, 82545, 82546) e1000e (82571, 82572, 82573, 82574, 82583, ICH8, ICH9, ICH10, PCH, PCH2, I217, I218, I219) igb (82575, 82576, 82580, I210, I211, I350, I354, DH89xx) ixgbe (82598, 82599, X520, X540, X550) i40e (X710, XL710, X722) fm10k (FM10420)  Note: The drivers e1000 and e1000e are also called em. The drivers em and igb are sometimes grouped in e1000 family.\n "
 },
 {
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/technicalboard/",
+	"title": "Technical Board",
+	"tags": [],
+	"description": "",
+	"content": " Scope The decision making process is primarily based on consensus. However in rare cases, the Technical Board can make a decision when consensus is not reached on the mailing list.\nThe scope of this body is limited to the questions directly related to the development in the following repositories:\n dpdk.git dpdk-stable.git dpdk-next-*.git dpdk-ci.git dpdk-web.git  Members The 9 current members of techboard@dpdk.org are:\nBruce Richardson Ferruh Yigit Hemant Agrawal Jerin Jacob Konstantin Ananyev Olivier Matz Stephen Hemminger Thomas Monjalon\n"
+},
+{
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/marvell/",
 	"title": "Marvell",
 	"tags": [],
 	"description": "",
 	"content": " mrvl (Marvell Packet Processor v2)  "
+},
+{
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/training/",
+	"title": "Training",
+	"tags": [],
+	"description": "",
+	"content": " Resources available online:  DPDK Summits Presentation Intel Network Drivers University (Registration is free, but required)  For instructor-led training services, please refer to our Companies list.\n"
 },
 {
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/mellanox/",

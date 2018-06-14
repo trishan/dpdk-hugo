@@ -1,9 +1,9 @@
 +++
 title = "Performance Reports"
-weight = "3"
+weight = "5"
 +++
 
-- [DPDK 18.02 Intel NIC Performance Report](/PerfReports/DPDK_18_02_Intel_NIC_performance_report.pdf)
+- [DPDK 18.02 Intel NIC Performance Report](/dpdk-hugo/PerfReports/DPDK_18_02_Intel_NIC_performance_report.pdf)
 - [DPDK 18.02 Intel Vhost/Virtio Performance Report](/dpdk-hugo/PerfReports/DPDK_18_02_Intel_virtio_performance_report.pdf)
 - [DPDK 18.02 Intel Crypto Performance Report](/dpdk-hugo/PerfReports/DPDK_18_02_Intel_crypto_performance_report.pdf)
 - [DPDK 17.11 Intel NIC Performance Report](/dpdk-hugo/PerfReports/DPDK_17_11_Intel_NIC_performance_report.pdf)
