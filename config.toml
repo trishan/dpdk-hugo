@@ -20,10 +20,9 @@ editURL = "https://github.com/jeskaduman/dpdk-hugo/edit/master/content/"
 home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
-name = "<label>Development Roadmap</label>"
-identifier = "devmap"
-url = "/DevelopmentRoadmap/"
-weight = 3
+name = "<label>Download</label>"
+url = "/download"
+weight = 1
 
 [[menu.shortcuts]]
 name = "<label>Documentation</label>"
@@ -32,11 +31,18 @@ url = "/documentation"
 weight = 2
 
 [[menu.shortcuts]]
-name = "<label>Download</label>"
-url = "/download"
-weight = 1
+name = "<label>Development Roadmap</label>"
+identifier = "devmap"
+url = "/DevelopmentRoadmap/"
+weight = 3
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-home'></i> <label>DPDK Home</label>"
-url = "http://dpdk.lfprojects.linuxfoundation.org/"
+name = "<label>Contribute</label>"
+identifier = "contribute"
+url = "https://www.dpdk.org/contribute"
 weight = 4
+
+[[menu.shortcuts]]
+name = "<label>DPDK.org</label>"
+url = "https://www.dpdk.org"
+weight = 5

@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.31.1" />
-<title>Intel :: DPDK</title>
+<title>DPDK techboard minutes of May 22 :: DPDK</title>
 <link rel="shortcut icon" href="/dpdk-hugo/images/favicon.png" type="image/x-icon" />
 <link href="/dpdk-hugo/css/font-awesome.min.css" rel="stylesheet">
 <link href="/dpdk-hugo/css/nucleus.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 
     
   </head>
-  <body data-url="/dpdk-hugo/supportedhardware/nics/intel/">
+  <body data-url="/dpdk-hugo/technicalboard/minutes/52218/">
     
       <header>
   <div class="logo">
@@ -59,13 +59,8 @@
                 </a>
             </li>
             <li class="" role="">
-                <a href="https://www.dpdk.org/contribute"  rel="noopener">
-                  <label>Contribute</label>
-                </a>
-            </li>
-            <li class="" role="">
-                <a href="https://www.dpdk.org"  rel="noopener">
-                  <label>DPDK.org</label>
+                <a href="http://dpdk.lfprojects.linuxfoundation.org/"  rel="noopener">
+                  <i class='fa fa-home'></i> <label>DPDK Home</label>
                 </a>
             </li>
     </nav>
@@ -94,11 +89,10 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/dpdk-hugo/supportedhardware/" class="dd-item parent haschildren
+    <li data-nav-id="/dpdk-hugo/supportedhardware/" class="dd-item haschildren
         ">
       <div>
-      <a href="/dpdk-hugo/supportedhardware/">Supported Hardware</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/dpdk-hugo/supportedhardware/">Supported Hardware</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
         </ul>
@@ -115,18 +109,21 @@
       <a href="/dpdk-hugo/performancelab/">Performance Lab</a><i class="fa fa-circle-thin read-icon"></i>
       </div>
     </li>
-    <li data-nav-id="/dpdk-hugo/technicalboard/" class="dd-item haschildren
+    <li data-nav-id="/dpdk-hugo/technicalboard/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/dpdk-hugo/technicalboard/">Technical Board</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/dpdk-hugo/technicalboard/">Technical Board</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/dpdk-hugo/technicalboard/minutes/" class="dd-item">
-        <div>
-          <a href="/dpdk-hugo/technicalboard/minutes/">
-            Technical Board Minutes
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
+    <li data-nav-id="/dpdk-hugo/technicalboard/minutes/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/dpdk-hugo/technicalboard/minutes/">Technical Board Meetings</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+        </ul>
     </li>
         </ul>
     </li>
@@ -181,14 +178,18 @@
     <option value="/dpdk-hugo/documentation/" >
    Documentation</option>
     <option value="/dpdk-hugo/supportedhardware/" >
-   Supported Hardware</option> 
-  
+   Supported Hardware</option>
     <option value="/dpdk-hugo/performance_reports/" >
    Performance Reports</option>
     <option value="/dpdk-hugo/performancelab/" >
    Performance Lab</option>
     <option value="/dpdk-hugo/technicalboard/" >
-   Technical Board</option>
+   Technical Board</option> 
+    <option value="/dpdk-hugo/technicalboard/minutes/" >
+  - 
+   Technical Board Meetings</option> 
+  
+  
     <option value="/dpdk-hugo/training/" >
    Training</option>
     <option value="/dpdk-hugo/developmentroadmap/" >
@@ -201,22 +202,61 @@
     </div>
     
 
-    <h1>Intel</h1>
+    <h1>DPDK techboard minutes of May 22</h1>
     
     
     
-    <ul>
-<li><a href="http://dpdk.org/doc/guides/nics/e1000em.html">e1000</a> (82540, 82545, 82546)</li>
-<li><a href="http://dpdk.org/browse/dpdk/tree/drivers/net/e1000/">e1000e</a> (82571, 82572, 82573, 82574, 82583, ICH8, ICH9, ICH10, PCH, PCH2, I217, I218, I219)</li>
-<li><a href="http://dpdk.org/browse/dpdk/tree/drivers/net/e1000/">igb</a> (82575, 82576, 82580, I210, I211, I350, I354, DH89xx)</li>
-<li><a href="http://dpdk.org/doc/guides/nics/ixgbe.html">ixgbe</a> (82598, 82599, X520, X540, X550)</li>
-<li><a href="http://dpdk.org/doc/guides/nics/i40e.html">i40e</a> (X710, XL710, X722)</li>
-<li><a href="http://dpdk.org/doc/guides/nics/fm10k.html">fm10k</a> (FM10420)</li>
+    <p>Meeting notes for the DPDK technical board meeting held on 2018-05-22</p>
+
+<p>Attendees:
+    - Bruce Richardson
+    - Ferruh Yigit
+    - Hemant Agrawal
+    - Jerin Jacob
+    - Konstantin Ananyev
+    - Olivier Matz
+    - Stephen Hemminger
+    - Thomas Monjalon</p>
+
+<p>0) Check action items from last meetings</p>
+
+<ul>
+<li><p>SPDX compliance</p>
+
+<ul>
+<li>some patches are pending to be applied</li>
+</ul></li>
+
+<li><p>Gaps in new build system</p>
+
+<ul>
+<li>Bruce added few more driver</li>
+<li>Bruce will check 32 bit compilation</li>
+</ul></li>
+
+<li><p>new offloading API switch for PMD interface</p>
+
+<ul>
+<li>NFP sent a patchset post RC5</li>
+<li>Some doc update also needed (Cavium/intel)</li>
+</ul></li>
 </ul>
 
-<div class="notices note" ><p>Note: The drivers e1000 and e1000e are also called em. The drivers em and igb are sometimes grouped in e1000 family.</p>
-</div>
+<p>1) 18.05 release discussion
+ - deprecated list need to be checked
+ - test status from NXP/Cavium is required
+ - NFP sent a patch post RC5
+    - Ferruh will take the offload API patch only.
+ - Any patch integration post RC5
+    - Avoid unless critical (as requested by submitter).</p>
 
+<p>2) The Review Process update</p>
+
+<ul>
+<li>No discussions.  It was a short meeting due to pending release work.</li>
+</ul>
+
+<p>3) Next meeting will be on June 6 and Jerin will chair it</p>
 
 
     
@@ -239,7 +279,7 @@
   
 
     <div class="github-link">
-      <a href="https://github.com/jeskaduman/dpdk-hugo/edit/master/content/SupportedHardware/NICs/intel.md" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="https://github.com/jeskaduman/dpdk-hugo/edit/master/content/TechnicalBoard/Minutes/52218.md" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
   </div>

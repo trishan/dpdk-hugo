@@ -59,8 +59,13 @@
                 </a>
             </li>
             <li class="" role="">
-                <a href="http://dpdk.lfprojects.linuxfoundation.org/"  rel="noopener">
-                  <i class='fa fa-home'></i> <label>DPDK Home</label>
+                <a href="https://www.dpdk.org/contribute"  rel="noopener">
+                  <label>Contribute</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="https://www.dpdk.org"  rel="noopener">
+                  <label>DPDK.org</label>
                 </a>
             </li>
     </nav>
@@ -109,11 +114,21 @@
       <a href="/dpdk-hugo/performancelab/">Performance Lab</a><i class="fa fa-circle-thin read-icon"></i>
       </div>
     </li>
-    <li data-nav-id="/dpdk-hugo/technicalboard/" class="dd-item parent active
+    <li data-nav-id="/dpdk-hugo/technicalboard/" class="dd-item parent active haschildren
         ">
       <div>
-      <a href="/dpdk-hugo/technicalboard/">Technical Board</a><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/dpdk-hugo/technicalboard/">Technical Board</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
+        <ul>
+      <li data-nav-id="/dpdk-hugo/technicalboard/minutes/" class="dd-item">
+        <div>
+          <a href="/dpdk-hugo/technicalboard/minutes/">
+            Technical Board Minutes
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
     </li>
     <li data-nav-id="/dpdk-hugo/training/" class="dd-item
         ">
@@ -173,6 +188,7 @@
    Performance Lab</option>
     <option value="/dpdk-hugo/technicalboard/"  selected>
    Technical Board</option> 
+      <option value="/dpdk-hugo/technicalboard/minutes/" >- Technical Board Minutes</option>
   
     <option value="/dpdk-hugo/training/" >
    Training</option>
@@ -209,16 +225,48 @@
 
 <h3 id="members">Members</h3>
 
-<p>The 9 current members of <a href="mailto:techboard@dpdk.org">techboard@dpdk.org</a> are:</p>
+<p>The 9 current members of <a href="mailto:techboard@dpdk.org">techboard@dpdk.org</a> are</p>
 
-<p>Bruce Richardson
-Ferruh Yigit
-Hemant Agrawal
-Jerin Jacob
-Konstantin Ananyev
-Olivier Matz
-Stephen Hemminger
-Thomas Monjalon</p>
+<ul>
+<li>Bruce Richardson</li>
+<li>Ferruh Yigit</li>
+<li>Hemant Agrawal</li>
+<li>Jerin Jacob</li>
+<li>Konstantin Ananyev</li>
+<li>Olivier Matz</li>
+<li>Stephen Hemminger</li>
+<li>Thomas Monjalon</li>
+</ul>
+
+<h3 id="renewal">Renewal</h3>
+
+<p>Technical Board positions are held by individuals, not companies. However, employees of a single company should not occupy more than 40% of board seats.</p>
+
+<p>It can be decided to remove a member if there is an approval of <sup>2</sup>&frasl;<sub>3</sub> of the whole Technical Board. It can be decided either to replace the member, or to redefine the size of the board.</p>
+
+<p>There will be some renewal when it will be felt as needed.</p>
+
+<h3 id="meetings">Meetings</h3>
+
+<p>A short meeting happens on IRC (freenode #dpdk-board) every two weeks.</p>
+
+<p>The quorum required for a meeting to proceed is a 70% majority of the Technical Board.</p>
+
+<p>The Chair is a rotating role among members.</p>
+
+<p>Any contributor can ask to add a topic in the <a href="https://annuel.framapad.org/p/r.0c3cc4d1e011214183872a98f6b5c7db">agenda</a> by sending an email to <a href="mailto:techboard@dpdk.org">techboard@dpdk.org</a>. The board members will add any topic of interest in the <a href="https://annuel.framapad.org/p/r.0c3cc4d1e011214183872a98f6b5c7db">agenda</a>.</p>
+
+<p>Minutes are sent to <a href="mailto:dev@dpdk.org">dev@dpdk.org</a> so anyone can comment. However, the technical discussions should happen in the original thread.</p>
+
+<h3 id="roles">Roles</h3>
+
+<ul>
+<li>The new project repositories must be approved by the Technical Board, while applying the non-technical criteria defined by the Governing Board.</li>
+<li>If a patch does not receive any or enough comment, the board may discuss it in order to provide an input on the mailing list.</li>
+<li>If there is no consensus in a discussion, a decision can be taken by the Technical Board and explained on the mailing list.</li>
+</ul>
+
+<p>For a vote to be passed, a majority (&gt; 50%) of the total Technical Board is required (not just a majority of those in attendance at the meeting). In the event of a deadlock the Technical Board Chair shall have the casting vote.</p>
 
 
 

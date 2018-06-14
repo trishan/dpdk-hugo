@@ -88,7 +88,7 @@
 	"title": "Technical Board",
 	"tags": [],
 	"description": "",
-	"content": " Scope The decision making process is primarily based on consensus. However in rare cases, the Technical Board can make a decision when consensus is not reached on the mailing list.\nThe scope of this body is limited to the questions directly related to the development in the following repositories:\n dpdk.git dpdk-stable.git dpdk-next-*.git dpdk-ci.git dpdk-web.git  Members The 9 current members of techboard@dpdk.org are:\nBruce Richardson Ferruh Yigit Hemant Agrawal Jerin Jacob Konstantin Ananyev Olivier Matz Stephen Hemminger Thomas Monjalon\n"
+	"content": " Scope The decision making process is primarily based on consensus. However in rare cases, the Technical Board can make a decision when consensus is not reached on the mailing list.\nThe scope of this body is limited to the questions directly related to the development in the following repositories:\n dpdk.git dpdk-stable.git dpdk-next-*.git dpdk-ci.git dpdk-web.git  Members The 9 current members of techboard@dpdk.org are\n Bruce Richardson Ferruh Yigit Hemant Agrawal Jerin Jacob Konstantin Ananyev Olivier Matz Stephen Hemminger Thomas Monjalon  Renewal Technical Board positions are held by individuals, not companies. However, employees of a single company should not occupy more than 40% of board seats.\nIt can be decided to remove a member if there is an approval of 2\u0026frasl;3 of the whole Technical Board. It can be decided either to replace the member, or to redefine the size of the board.\nThere will be some renewal when it will be felt as needed.\nMeetings A short meeting happens on IRC (freenode #dpdk-board) every two weeks.\nThe quorum required for a meeting to proceed is a 70% majority of the Technical Board.\nThe Chair is a rotating role among members.\nAny contributor can ask to add a topic in the agenda by sending an email to techboard@dpdk.org. The board members will add any topic of interest in the agenda.\nMinutes are sent to dev@dpdk.org so anyone can comment. However, the technical discussions should happen in the original thread.\nRoles  The new project repositories must be approved by the Technical Board, while applying the non-technical criteria defined by the Governing Board. If a patch does not receive any or enough comment, the board may discuss it in order to provide an input on the mailing list. If there is no consensus in a discussion, a decision can be taken by the Technical Board and explained on the mailing list.  For a vote to be passed, a majority (\u0026gt; 50%) of the total Technical Board is required (not just a majority of those in attendance at the meeting). In the event of a deadlock the Technical Board Chair shall have the casting vote.\n"
 },
 {
 	"uri": "https://jeskaduman.github.io/dpdk-hugo/supportedhardware/nics/marvell/",
@@ -222,4 +222,11 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "https://jeskaduman.github.io/dpdk-hugo/technicalboard/minutes/",
+	"title": "Technical Board Minutes",
+	"tags": [],
+	"description": "",
+	"content": " Agenda The agenda of the next meeting is updated when a request is done to techboard@dpdk.org.\nMinutes The Technical Board sends minutes of its meetings on the mailing list. They are listed below.\n 2018-05-22 2018-05-09 2018-04-11 2018-03-28 2018-03-14 2018-02-28 2018-02-14 2018-01-31 2018-01-17 2017-12-20 2017-12-06 2017-11-22 2017-10-26 2017-10-13 2017-09-15 2017-08-30 2017-08-09 2017-07-05 2017-06-21 2017-06-07 2017-05-18 2017-04-27 2017-04-10 2017-03-20 2017-03-02 2017-02-15 2017-01-25  "
 }]
